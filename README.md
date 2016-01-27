@@ -1,4 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/codeforcroatia/codeacross.png?label=ready&title=Ready)](https://waffle.io/codeforcroatia/codeacross)
+[![Stories in Ready](https://badge.waffle.io/codeforcroatia/codeacross.png?label=ready&title=Ready)](https://waffle.io/codeforcroatia/codeacross)
 CodeAcross and OpenDataDay in Croatia, Zagreb
 ====================================
 
