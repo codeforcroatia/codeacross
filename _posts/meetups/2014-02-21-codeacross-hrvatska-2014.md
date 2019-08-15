@@ -2,17 +2,17 @@
 categories: meetup
 meetup: meetup
 layout: meetup
-title: CodeAcross Hrvatska 2014
+title: CodeAcross Hrvatska 2014 konferencija
 date: "2014-02-21 10:00:00"
-permalink: "/codeacross-hrvatska-2014/"
+permalink: "/codeacross-hrvatska-2014-konferencija/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
-link: ""
-background: "url(http://i.imgur.com/6pTLWvr.jpg)"
+link: "https://codeacrosscroatia.eventbrite.com/"
+background: "url(https://odd.codeforcroatia.org/2014//img/code_across_banner.png)"
 published: true
 ---
 
-![image](https://odd.codeforcroatia.org/2014//img/code_across_banner.png)
+<!-- LOGO: ![image](https://odd.codeforcroatia.org/2014//img/code_across_banner.png) -->
 
 CodeAcross je slavlje građanskih inovacija koje se događa istovremeno u mnogo gradova diljem svijeta od 21. do 23. veljače. Taj vikend je također i internacionalni Dan otvorenih podataka! Tematika ovogodišnjeg događaja je "više od transparentnosti" - pokrenimo otvorenu vladu korak dalje i ne fokusirajmo se samo na otvaranje javnih podatka već i na korištenje tih podataka.
 
@@ -21,3 +21,5 @@ Pridruži nam se u Zagrebu 21. i 22. veljače.
 Registracija putem linka:
 
 # [codeacrosscroatia.eventbrite.com](https://codeacrosscroatia.eventbrite.com/)
+
+<!-- old banner image: http://i.imgur.com/6pTLWvr.jpg -->
