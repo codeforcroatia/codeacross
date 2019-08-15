@@ -26,11 +26,11 @@ maintainers-url: "https://codeforcroatia.org/"
 notifications: "visible"
 
 # Get Meetup Notifications, IFTTT recipie URLs
-email: ""
-gcal: ""
-sms: ""
-android: ""
-ifttt: ""
+email:
+gcal:
+sms:
+android:
+ifttt:
 # ifttt: "http://ifttt.com/"
 
 # Local Meetup Links
