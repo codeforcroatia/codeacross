@@ -4,7 +4,7 @@ meetup: meetup
 layout: meetup
 title: CodeAcross Hrvatska 2014
 date: "2014-02-21 10:00:00"
-permalink: "/2014/"
+permalink: "/codeacross-hrvatska-2014/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
 link: ""
