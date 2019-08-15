@@ -1,0 +1,48 @@
+# Site settings
+title: Open Data Day
+location: Zagreb, Hrvatska
+description: "Open Data Day je konferencija o otvorenim podacima i vikend građanskih inovacija."
+baseurl: ""
+url: "http://odd.codeforcroatia.org"
+icon: "location"
+invitation: "Come to create something awesome, learn how to code, or bring your existing projects. No matter your skill level, anyone is welcome!"
+contact-us-url: "https://codeforcroatia.org/contact"
+
+# More settings
+accent: "#E74C3C"
+twitter: "CodeForCroatia"
+twitter-widget-id: "484199749394784256"
+twitter-ref-src: "twsrc%5Etfw"
+facebook: "programirajzahrvatsku"
+github: "codeforcroatia/opendataday"
+google-maps-api-key: "AIzaSyC0bjUUQmiaxPuS11USZgxDC-WLFsTb1lM"
+contact: "opendataday at codeforcroatia točka org"
+organizers: "Code for Croatia i GONG"
+maintainers: "Code for Croatia"
+maintainers-url: "https://codeforcroatia.org/"
+
+
+# Get Meetup Notifications, visible or hidden
+notifications: "visible"
+
+# Get Meetup Notifications, IFTTT recipie URLs
+email: ""
+gcal: ""
+sms: ""
+android: ""
+ifttt: ""
+# ifttt: "http://ifttt.com/"
+
+# Local Meetup Links
+meetup1: "Code for Croatia"
+meetup1-url: "http://codeforcroatia.org/"
+meetup2: "Code for Croatia meetups"
+meetup2-url: "http://www.meetup.com/CodeForCroatia"
+meetup3: "GONG"
+meetup3-url: "http://www.gong.hr/"
+meetup4: "Code for Croatia FB događaji"
+meetup4-url: "https://www.facebook.com/programirajzahrvatsku/events/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

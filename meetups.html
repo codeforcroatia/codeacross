@@ -1,20 +1,13 @@
 ---
-layout: default
-background: "url(http://i.imgur.com/oPGTBiS.jpg) #03A9F4"
+layout: page
+title: Konferencija
+caption: vidimo se
+subtitle: Dođite i pridružite nam se u izradi civilno korisnih inovacija!
+icon: direction
+background: "#4054B2"
+permalink: /meetups/
+navigation: visible
 ---
-
-<header>
-  <div class="c">
-    <h1>Open Data Day Hrvatska</h1>
-    <p class="lead">Vikend građanskih inovacija.</p>
-  </div>
-</header>
-
-<!-- END COVER -->
-</div>
-
-<section class="home">
-  <div class="c">      
 
       <h2>Sljedeći {{ site.title }}</h2>
       <div class="meetups">
@@ -58,24 +51,5 @@ background: "url(http://i.imgur.com/oPGTBiS.jpg) #03A9F4"
               {% endif %}
             {% endfor %}
           </div>
-  
-        <!-- <h2>From the Blog</h2>
-        <div class="blog">
-            {% for post in site.categories.blog %}
-              <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
-                <div class="preview" style="background:{{ post.background }}">
-                  <div class="date">
-                      <small>{{ post.date | date: "%B" }}</small>
-                      {{ post.date | date: "%-d" }}
-                  </div>
-                </div>
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.summary }}</p>
-              </a>
-              <br>
-            {% endfor %}
-          </div> -->
-
-  </div>
-</section>
-
+                    
+          <p>Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.</p>

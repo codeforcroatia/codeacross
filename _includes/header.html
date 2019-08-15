@@ -1,0 +1,35 @@
+<span id="top"></span>
+<div class="cover" style="background:{{ page.background }}">
+  
+  <nav class="site-header" role="navigation">
+    <div class="c">
+      <a href="/" class="logo">
+        <i class="icon-{{ site.icon }}"></i>
+        <div>
+          {{ site.title }}
+          <small>{{ site.location }}</small>
+        </div>
+      </a>
+      <a href="#" onclick="$('nav').toggleClass('expanded')" class="menu-button visible-mobile right">
+        <i class="icon-more"></i>
+      </a>
+      {% for page in site.pages %} {% if page.navigation contains 'visible' %}
+        <a class="page-link" onclick="$('nav').toggleClass('expanded')" href="{{ page.url | prepend: site.baseurl }}">
+          <i class="icon-{{ page.icon }}"></i>
+          <div>
+            {{ page.title }}
+            <small>{{ page.caption }}</small>
+          </div>
+        </a>
+      {% endif %} {% endfor %}
+      <a href="https://facebook.com/{{ site.facebook }}" target="_blank" class="facebook">
+        <i class="icon-facebook"></i>
+        <div>
+          {{ site.maintainers }}
+          <small>izabri crvenu pilulu</small>
+        </div>
+      </a>
+    </div>
+  </nav>
+
+  <!-- COVER PHOTO CONTINUES -->
