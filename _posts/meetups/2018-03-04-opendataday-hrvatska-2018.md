@@ -24,4 +24,4 @@ Vikend za haktiviste – demonstrirajte svoje vještine, kreirajte open source p
 
 Za detalje posjetite stranicu:
 
-# [CodeAcross Hrvatska 2018](http://odd.codeforcroatia.org/2018/)
+# [Open Data Day Hrvatska 2018](http://odd.codeforcroatia.org/2018/)

@@ -24,4 +24,4 @@ Pet godina otvorenih podataka u Hrvatskoj: dosadašnja praksa i izazovi koji sto
 
 Za detalje posjetite stranicu:
 
-# [CodeAcross Hrvatska 2018](http://odd.codeforcroatia.org/2018/)
+# [Open Data Day Hrvatska 2018](http://odd.codeforcroatia.org/2018/)

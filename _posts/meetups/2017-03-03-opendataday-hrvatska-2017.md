@@ -24,4 +24,4 @@ Okrugli stol o ponovnoj uporabi informacija i primjeni u Hrvatskoj.
 
 Za detalje posjetite stranicu:
 
-# [CodeAcross Hrvatska 2017](http://odd.codeforcroatia.org/2017/)
+# [Open Data Day Hrvatska 2017](http://odd.codeforcroatia.org/2017/)

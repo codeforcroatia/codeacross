@@ -20,4 +20,4 @@ Pridruži nam se u Zagrebu – 4. - 6. ožujka.
 
 Za detalje posjetite stranicu:
 
-# [CodeAcross Hrvatska 2016](http://odd.codeforcroatia.org/2016/)
+# [CodeAcross & OpenDataDay Hrvatska 2016](http://odd.codeforcroatia.org/2016/)
