@@ -2,7 +2,7 @@
 categories: meetup
 meetup: meetup
 layout: meetup
-title: CodeAcross Hrvatska 2014 hackathon
+title: CodeAcross Hrvatska 2014 hackathon (ned)
 date: "2014-02-21 10:00:00"
 permalink: "/codeacross-hrvatska-2014-hackathon/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
