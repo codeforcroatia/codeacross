@@ -7,12 +7,12 @@ date: "2014-02-21 10:00:00"
 permalink: "/codeacross-hrvatska-2014-konferencija/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
-link: "https://codeacrosscroatia.eventbrite.com/"
-background: "url(/image/globe.png)"
+link: "http://odd.codeforcroatia.org/2014/"
+background: "url(/images/globe.png)"
 published: true
 ---
 
-![image](/image/code_across_2014_banner.png)
+![image](/images/code_across_2014_banner.png)
 
 CodeAcross je slavlje građanskih inovacija koje se događa istovremeno u mnogo gradova diljem svijeta od 21. do 23. veljače. Taj vikend je također i internacionalni Dan otvorenih podataka! Tematika ovogodišnjeg događaja je "više od transparentnosti" - pokrenimo otvorenu vladu korak dalje i ne fokusirajmo se samo na otvaranje javnih podatka već i na korištenje tih podataka.
 
@@ -85,13 +85,13 @@ Potvrdi dolazak putem linka:
 <section id="donors">
 	<div>
 		<h1>Sponzori</h1>
-		![image](/image/code_across_2014_sponsors.png)
+		<img src="/images/code_across_2014_sponsors.png">
 	</div>
 </section>
 
 <section id="challenges">
 	<div>
 		<h1>Izazovi</h1>
-		<p>U subotu održavamo tehničke civilne izazove s naglaskom na povezivanje timova koji mogu riješiti probleme. Ovo su neke ideje na kojima radimo. Do natjecanja mogu se pojaviti i nove ideje - pozivamo i tebe da predstaviš svoje ideje na <a href="https://codeforcroatia.hackpad.com/Hackbook-1iJDaLUghBS">našem Hackbooku</a> ([web arhiva](https://web.archive.org/web/20170428214110/https://codeforcroatia.hackpad.com/Hackbook-1iJDaLUghBS)). Na <a href="https://codeforcroatia.hackpad.com/ER5KzmEfycJ">ovoj stranici</a> ([web arhiva](https://web.archive.org/web/20170428214056/https://codeforcroatia.hackpad.com/Dobrodoli-na-CodeAcross-Hrvatska-2014-ER5KzmEfycJ)) možeš pogledati izazove koje smo postavili za 2014. godinu.</p>
+		<p>U subotu održavamo tehničke civilne izazove s naglaskom na povezivanje timova koji mogu riješiti probleme. Ovo su neke ideje na kojima radimo. Do natjecanja mogu se pojaviti i nove ideje - pozivamo i tebe da predstaviš svoje ideje na <a href="https://codeforcroatia.hackpad.com/Hackbook-1iJDaLUghBS">našem Hackbooku</a> (<a href="https://web.archive.org/web/20170428214110/https://codeforcroatia.hackpad.com/Hackbook-1iJDaLUghBS">web arhiva</a>. Na <a href="https://codeforcroatia.hackpad.com/ER5KzmEfycJ">ovoj stranici</a> (<a href="https://web.archive.org/web/20170428214056/https://codeforcroatia.hackpad.com/Dobrodoli-na-CodeAcross-Hrvatska-2014-ER5KzmEfycJ">web arhiva</a>) možeš pogledati izazove koje smo postavili za 2014. godinu.</p>
 	</div>
 </section>
