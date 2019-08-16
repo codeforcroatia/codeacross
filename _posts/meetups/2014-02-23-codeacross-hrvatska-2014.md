@@ -8,7 +8,7 @@ permalink: "/codeacross-hrvatska-2014-hackathon/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
 link: "http://odd.codeforcroatia.org/2014/"
-background: "url(https://odd.codeforcroatia.org/2014/img/red-overlay.png)"
+background: "url(https://odd.codeforcroatia.org/2018/img/logos/banner_ODD_big.png)"
 published: true
 ---
 
