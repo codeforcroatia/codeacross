@@ -43,7 +43,7 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
         <h2>Prošli {{ site.title }}</h2>
         <div class="meetups">
           {% assign curDate = site.time | date: '%s' %}
-            {% for post in site.categories.meetup %}
+            {% for post in site.categories.meetup limit:3 %}
               {% assign postStartDate = post.date | date: '%s' %}
               {% if curDate > postStartDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -61,9 +61,9 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
             {% endfor %}
           </div>
   
-        <h2>Blog</h2>
+        <h2>Zadnji postovi</h2>
         <div class="blog">
-            {% for post in site.categories.blog %}
+            {% for post in site.categories.blog limit:4 %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">
                   <div class="date">
@@ -72,7 +72,7 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
                   </div>
                 </div>
                 <h3>{{ post.title }}</h3>
-                <p>{{ post.summary }}</p>
+                <p>{{ post.subtitle }}</p>
               </a>
               <br>
             {% endfor %}
