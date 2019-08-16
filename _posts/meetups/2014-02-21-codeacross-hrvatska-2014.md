@@ -22,4 +22,13 @@ Registracija putem linka:
 
 # [codeacrosscroatia.eventbrite.com](https://codeacrosscroatia.eventbrite.com/)
 
-<!-- old banner image: http://i.imgur.com/6pTLWvr.jpg -->
+
+<div id="inspiration" class="event col-sm-6">
+  <h1 class="invert">Inspiracija</h1>
+  <h2 class="col-sm-8">Panel diskusija u Chilloutki</h2>
+  <h3 class="col-sm-4">10:00 h | 21. veljače</h3>
+  <div class="clearfix"></div>
+  <h4>Ilica 15, Zagreb, HR</h4>
+  <div class="clearfix"></div>
+  <p>Ponuđen nam je lijep prostor Chillouteke u centru grada za održavanje ovih odličnih prezentacija.</p>
+</div>
