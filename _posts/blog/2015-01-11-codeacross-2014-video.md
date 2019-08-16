@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: blog
-title: CodeAcross Hrvatska 2014: Više od transparentnosti
+title: CodeAcross Hrvatska 2014 - Više od transparentnosti
 subtitle: "Pogledaj CodeAcross video!"
 permalink: "/codeacross-2014-video/"
 author: Miroslav
