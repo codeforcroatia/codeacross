@@ -8,17 +8,17 @@ permalink: "/codeacross-hrvatska-2014-hackathon-sub/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
 link: "http://odd.codeforcroatia.org/2014/"
-background: "url(https://odd.codeforcroatia.org/2014/img/red-overlay.png)"
+background: "url(https://odd.codeforcroatia.org/2014/img/blue-overlay.png)"
 published: true
 ---
 
-![image](/images/vise-od-transparentnosti.jpg)
+![image](https://odd.codeforcroatia.org/2014/img/Vise-od-transparentnosti.jpg)
 
 CodeAcross je slavlje građanskih inovacija koje se događa istovremeno u mnogo gradova diljem svijeta od 21. do 23. veljače. Taj vikend je također i internacionalni Dan otvorenih podataka! Tematika ovogodišnjeg događaja je "više od transparentnosti" - pokrenimo otvorenu vladu korak dalje i ne fokusirajmo se samo na otvaranje javnih podatka već i na korištenje tih podataka.
 
 Pridruži nam se u Zagrebu 21. i 22. veljače.
 
-![image](/images/chilloutka_dominion.jpg)
+![image](https://odd.codeforcroatia.org/2014/img/dominion.jpg)
 
 <div id="participation">
   <h1>Sudjelovanje</h1>
