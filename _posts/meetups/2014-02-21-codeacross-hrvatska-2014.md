@@ -8,15 +8,17 @@ permalink: "/codeacross-hrvatska-2014-konferencija/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
 link: "http://odd.codeforcroatia.org/2014/"
-background: "url(/images/globe.png)"
+background: "url(https://odd.codeforcroatia.org/images/globe.png)"
 published: true
 ---
 
-![image](/images/code_across_2014_banner.png)
+![image](/images/vise-od-transparentnosti.jpg)
 
 CodeAcross je slavlje građanskih inovacija koje se događa istovremeno u mnogo gradova diljem svijeta od 21. do 23. veljače. Taj vikend je također i internacionalni Dan otvorenih podataka! Tematika ovogodišnjeg događaja je "više od transparentnosti" - pokrenimo otvorenu vladu korak dalje i ne fokusirajmo se samo na otvaranje javnih podatka već i na korištenje tih podataka.
 
 Pridruži nam se u Zagrebu 21. i 22. veljače.
+
+![image](/images/chilloutka_roper.jpg)
 
 <div id="inspiration">
   <h1>Inspiracija</h1>
@@ -89,9 +91,6 @@ Potvrdi dolazak putem linka:
 	</div>
 </section>
 
-<section id="challenges">
-	<div>
-		<h1>Izazovi</h1>
-		<p>U subotu održavamo tehničke civilne izazove s naglaskom na povezivanje timova koji mogu riješiti probleme. Ovo su neke ideje na kojima radimo. Do natjecanja mogu se pojaviti i nove ideje - pozivamo i tebe da predstaviš svoje ideje na <a href="https://codeforcroatia.hackpad.com/Hackbook-1iJDaLUghBS">našem Hackbooku</a> (<a href="https://web.archive.org/web/20170428214110/https://codeforcroatia.hackpad.com/Hackbook-1iJDaLUghBS">web arhiva</a>. Na <a href="https://codeforcroatia.hackpad.com/ER5KzmEfycJ">ovoj stranici</a> (<a href="https://web.archive.org/web/20170428214056/https://codeforcroatia.hackpad.com/Dobrodoli-na-CodeAcross-Hrvatska-2014-ER5KzmEfycJ">web arhiva</a>) možeš pogledati izazove koje smo postavili za 2014. godinu.</p>
-	</div>
-</section>
+Za detalje posjetite stranicu:
+
+# [CodeAcross Hrvatska 2014](http://odd.codeforcroatia.org/2014/)
