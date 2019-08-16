@@ -2,9 +2,9 @@
 categories: meetup
 meetup: meetup
 layout: meetup
-title: CodeAcross Hrvatska 2014 hackathon (sub)
+title: CodeAcross Hrvatska 2014 hackathon
 date: "2014-02-22 10:00:00"
-permalink: "/codeacross-hrvatska-2014-hackathon/"
+permalink: "/codeacross-hrvatska-2014-hackathon-sub/"
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
 link: "http://odd.codeforcroatia.org/2014/"
