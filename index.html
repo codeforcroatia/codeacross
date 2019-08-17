@@ -32,7 +32,8 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
       {% when '10' %}Lis
       {% when '11' %}Stu
       {% when '12' %}Pro
-
+    {% endcase %}
+    
       <h2>Sljedeći {{ site.title }}</h2>
       <div class="meetups">
         {% assign curDate = site.time | date: '%s' %}
@@ -94,7 +95,6 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
               <br>
             {% endfor %}
           </div>
-    {% endcase %}
 
   </div>
 </section>
