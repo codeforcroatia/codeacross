@@ -87,11 +87,12 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
                       {{ post.date | date: "%-d" }}
                       {% assign m = post.date | date: "%-m" | minus: 1 %}
                       {{ site.data.hr.months[m] }}
-                      <!-- {{ page.date | date: "%Y" }} -->
-                      <!-- <small>{{ post.date | date: "%B" }}</small> -->
-                      <small>{{ post.date | date: "%B" }}</small>
+                      {{ post.date | date: "%Y" }}
+                      {{ post.date | date: "%m" }}
                       {% endcapture %}
                       <small>{{ post.date | date: "%B" }}</small>
+                      {{ post.date | date: "%m" }}
+                      {{ post.date | date: "%-m" }}
                       {{ post.date | date: "%-d" }}
                   </div>
                 </div>
