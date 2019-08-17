@@ -18,22 +18,6 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
 <section class="home">
   <div class="c">
 
-    {% assign Q = page.date | date: "%-m" %}
-    {% case Q %}
-      {% when '1' %}Sij
-      {% when '2' %}Velj
-      {% when '3' %}Ožu
-      {% when '4' %}Tra
-      {% when '5' %}Svi
-      {% when '6' %}Lip
-      {% when '7' %}Srp
-      {% when '8' %}Kol
-      {% when '9' %}Ruj
-      {% when '10' %}Lis
-      {% when '11' %}Stu
-      {% when '12' %}Pro
-    {% endcase %}
-
       <h2>Sljedeći {{ site.title }}</h2>
       <div class="meetups">
         {% assign curDate = site.time | date: '%s' %}
