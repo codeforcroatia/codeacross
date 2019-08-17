@@ -18,8 +18,8 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
 <section class="home">
   <div class="c">
 
-    {% assign m = page.date | date: "%-m" %}
-    {% case m %}
+    {% assign Z = page.date | date: "%-m" %}
+    {% case Z %}
       {% when '1' %}Sij
       {% when '2' %}Velj
       {% when '3' %}Ožu
@@ -33,7 +33,7 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
       {% when '11' %}Stu
       {% when '12' %}Pro
     {% endcase %}
-    
+
       <h2>Sljedeći {{ site.title }}</h2>
       <div class="meetups">
         {% assign curDate = site.time | date: '%s' %}
@@ -84,7 +84,7 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
                 <div class="preview" style="background:{{ post.background }}">
                   <div class="date">
                       <!-- <small>{{ post.date | date: "%B" }}</small> -->
-                      <small>{{ post.date | date: "%m" }}</small>
+                      <small>{{ post.date | date: "%Z" }}</small>
                       <small>{{ post.date | date: "%-m" }}</small>
                       {{ post.date | date: "%-d" }}
                   </div>
