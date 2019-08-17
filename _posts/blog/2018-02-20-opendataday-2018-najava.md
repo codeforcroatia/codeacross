@@ -20,4 +20,4 @@ Zagreb je, naime, među 200-tinjak gradova diljem svijeta u kojima se ovaj Dan o
 
 Ove godine Dani otvorenih podataka posvećeni su obilježavanju pet godina primjene pravnog okvira za ponovnu uporabu informacija i otvorene podatke u RH. Stoga će teme panel rasprava biti fokusirane na koristi koje je otvaranje javnih podataka do sada stvorilo ne samo za hrvatsko gospodarstvo, nego i društvo u cjelini kroz nove aplikacije i istraživanja. Govora će biti i o konkretnim izazovima i koracima koji slijede tijelima javne vlasti i korisnicima u cilju jačanja transparentnosti i otvorenosti vlasti i javnih podataka.
 
-Pročitaj više na [gong.hr...](https://www.gong.hr/hr/dobra-vladavina/odd2018-otvoreni-podaci-za-transparentnu-vlast/)
+Pročitaj [više na gong.hr...](https://www.gong.hr/hr/dobra-vladavina/odd2018-otvoreni-podaci-za-transparentnu-vlast/)

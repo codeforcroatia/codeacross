@@ -24,4 +24,4 @@ Istovremeno, a obzirom na skorašnje izbore za Europski parlament, Gong smatra v
 
 Vikend nakon konferencije, posvećen je datathonu u sklopu kojega će se konkretnim tehnološkim rješenjima demonstrirati načini na koje otvoreni podaci mogu doprinijeti većem povjerenju građana u institucije.
 
-Pročitaj više na [gong.hr...](https://www.gong.hr/hr/dobra-vladavina/pristup-informacijama/odd-zajedno-za-otvaranje-javnih-podataka/)
+Pročitaj [više na gong.hr...](https://www.gong.hr/hr/dobra-vladavina/pristup-informacijama/odd-zajedno-za-otvaranje-javnih-podataka/)

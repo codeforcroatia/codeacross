@@ -10,4 +10,6 @@ background: "rgb(119, 40, 23)"
 published: true
 ---
 
-# [Pogledaj ishode hackathona »](http://codeforcroatia.org/projects?tag=event.code_across_2015)
+Pogledaj ishode hackathona na Code for Croatia:
+
+# [Ishodi hackathona »](http://codeforcroatia.org/projects?tag=event.code_across_2015)
