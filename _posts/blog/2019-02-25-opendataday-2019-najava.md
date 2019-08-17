@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: blog
-title: Najava #ODD2019 - Zajedno za otvaranje javnih podataka
+title: Najava - Zajedno za otvaranje javnih podataka
 subtitle: "Dana otvorenih podataka izvrsna je prilika za otvaranje javne diskusije o politici otvorenih podataka Vlade Republike Hrvatske"
 permalink: "/opendataday-2019-najava/"
 author: Miroslav
@@ -9,6 +9,8 @@ author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"
 published: true
 ---
+
+# #ODD2019
 
 Globalna konferencija koja se tradicionalno povodom Dana otvorenih podataka održava u više od 200 gradova diljem svijeta u Zagrebu će se održati u prostoru HUB385 u Petračićevoj ulici 6, u petak, 1. ožujka, s početkom u 10 sati.
 
