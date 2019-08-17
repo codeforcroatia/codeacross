@@ -83,9 +83,14 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">
                   <div class="date">
+                      {% capture i18n_date %}
+                      {{ post.date | date: "%-d" }}
+                      {% assign m = post.date | date: "%-m" | minus: 1 %}
+                      {{ site.data.hr.months[m] }}
+                      <!-- {{ page.date | date: "%Y" }} -->
                       <!-- <small>{{ post.date | date: "%B" }}</small> -->
-                      <small>{{ post.date | date: "%Q" }}</small>
-                      <small>{{ post.date | date: "%-m" }}</small>
+                      <small>{{ post.date | date: "%Y" }}</small>
+                      {% endcapture %}
                       {{ post.date | date: "%-d" }}
                   </div>
                 </div>
