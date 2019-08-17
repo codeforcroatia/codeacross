@@ -2288,6 +2288,23 @@ nav {
     float: none;
     margin: 20px auto 20px auto; }
 
+.blogposts a.white-box {
+  display: block; }
+  .blogposts a.white-box h1, .blogposts a.white-box h2, .blogposts a.white-box h3 {
+    border-bottom: none; }
+.blogposts .preview {
+  display: block;
+  width: 25%;
+  min-width: 300px;
+  float: left;
+  text-align: center;
+  margin: -20px;
+  color: white;
+  margin-right: 20px; }
+  .blogposts .preview .date {
+    float: none;
+    margin: 20px auto 20px auto; }
+
 #now {
   background: #e74c3c; }
 
@@ -2381,6 +2398,10 @@ footer {
     text-align: center; }
 
   .meetups .preview {
+    margin-bottom: 20px;
+    width: 120%; }
+
+  .blogposts .preview {
     margin-bottom: 20px;
     width: 120%; }
 
