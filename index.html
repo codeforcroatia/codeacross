@@ -16,7 +16,22 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
 </div>
 
 <section class="home">
-  <div class="c">      
+  <div class="c">
+
+    {% assign m = page.date | date: "%-m" %}
+    {% case m %}
+      {% when '1' %}Sij
+      {% when '2' %}Velj
+      {% when '3' %}Ožu
+      {% when '4' %}Tra
+      {% when '5' %}Svi
+      {% when '6' %}Lip
+      {% when '7' %}Srp
+      {% when '8' %}Kol
+      {% when '9' %}Ruj
+      {% when '10' %}Lis
+      {% when '11' %}Stu
+      {% when '12' %}Pro
 
       <h2>Sljedeći {{ site.title }}</h2>
       <div class="meetups">
@@ -67,7 +82,9 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">
                   <div class="date">
-                      <small>{{ post.date | date: "%B" }}</small>
+                      <!-- <small>{{ post.date | date: "%B" }}</small> -->
+                      <small>{{ post.date | date: "%m" }}</small>
+                      <small>{{ post.date | date: "%-m" }}</small>
                       {{ post.date | date: "%-d" }}
                   </div>
                 </div>
@@ -77,6 +94,7 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
               <br>
             {% endfor %}
           </div>
+    {% endcase %}
 
   </div>
 </section>
