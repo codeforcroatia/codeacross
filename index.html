@@ -62,7 +62,7 @@ background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacro
           </div>
   
         <h2>Zadnji postovi</h2>
-        <div class="blog">
+        <div class="blogposts">
             {% for post in site.categories.blog limit:4 %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">

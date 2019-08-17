@@ -11,7 +11,7 @@ navigation: visible
 
         <h2>Blog</h2>
         <p>I ti možeš napisati blog post o Open Data Dayu! Potraži link za uređivanje u podnožju stranice ili nas kontaktiraj.
-        <div class="blog">
+        <div class="blogposts">
             {% for post in site.categories.blog %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">
