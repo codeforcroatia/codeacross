@@ -4,7 +4,7 @@ title: "O nama"
 caption: "saznaj sve"
 subtitle: "Mi smo tehnologisti koji koriste svoje znanje za dobrobit zajednice i sugrađana."
 identifier: "about"
-lang: en
+lang: hr
 icon: "code"
 background: "#60D317"
 permalink: "/about/"
