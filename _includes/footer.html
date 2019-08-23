@@ -63,18 +63,9 @@
       </div>
       <div class="col-33 hidden-mobile">
         <h3>@{{ site.twitter }}</h3>
-        <!-- Widget <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/{{ site.twitter }}"  data-widget-id="{{ site.twitter-widget-id }}" data-screen-name="{{ site.twitter }}" data-link-color="{{ site.accent }}"><i class="icon-twitter"></i> Tweets by @{{ site.twitter }}</a> 
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
-        <!-- Twitter follow button large -->
         <a href="https://twitter.com/{{ site.twitter }}?ref_src={{ site.twitter-ref-src }}" class="twitter-follow-button" data-size="large" data-show-count="false">{{ site.data.translations['follow'][page.lang] }} @{{ site.twitter }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <br>
-        <a href="https://facebook.com/{{ site.facebook }}" target="_blank" class="facebook">
-        <i class="icon-facebook"></i>
-        <div>
-          {{ site.maintainers }}
-          <small>{{ site.data.translations['selectRedPill'][page.lang] }}</small>
-        </div>
-      </a>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F{{ site.facebook }}%2F&width=300&layout=button&action=recommend&size=large&show_faces=false&share=true&height=65&appId" width="100%" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
       </div>
     </div>
   </div>
