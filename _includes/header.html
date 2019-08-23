@@ -27,7 +27,7 @@
         {% for post in posts %}
         {% if post.lang != page.lang and page.identifier != nil %}
         <a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="{{post.lang}}" href="{{ post.url | prepend: site.baseurl }}">
-        <i class="icon-translate"></i>
+        <i class="icon-earth"></i>
         <div>
           {{ site.data.translations['viewIn'][post.lang] }}
           <small>{{ site.data.languages[post.lang].label }}</small>
@@ -40,7 +40,7 @@
         {% for content in contents %}
         {% if content.lang != page.lang and page.identifier != nil %}
         <a title="{{ site.data.translations['viewIn'][content.lang] }} {{ site.data.languages[content.lang].label }}" class="{{content.lang}}" href="{{ content.url | prepend: site.baseurl }}">
-        <i class="icon-translate"></i>
+        <i class="icon-earth"></i>
         <div>
           {{ site.data.translations['viewIn'][content.lang] }}
           <small>{{ site.data.languages[content.lang].label }}</small>
