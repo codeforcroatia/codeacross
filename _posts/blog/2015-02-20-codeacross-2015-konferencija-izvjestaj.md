@@ -4,7 +4,7 @@ layout: blog
 title: Otvoreni podaci gorivo za demokraciju, sirovina za gospodarski rast
 subtitle: "Otvoreni podaci predstavljaju gorivo za demokraciju u smislu otvorenosti i transparentnosti"
 lang: hr
-lang-ref: codeacross-2015-konferencija-izvjestaj
+id: codeacross-2015-konferencija-izvjestaj
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"
