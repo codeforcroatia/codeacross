@@ -4,7 +4,7 @@ layout: blog
 title: Open data as the fuel for democracy, raw materials for economic growth
 subtitle: "The Open Data Day is celebrated through activities in the CodeAcross"
 lang: en
-identifier: codeacross-2015-konferencija-izvjestaj
+identifier: "codeacross-2015-konferencija-izvjestaj"
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

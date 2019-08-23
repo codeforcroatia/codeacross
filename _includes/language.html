@@ -1,4 +1,5 @@
 {% assign current = post.identifier %}
+<p>1. {{current}}, 2. {{post.identifier}}</p>
 {% if page.layout != 'default' %}
 
     <footer class="lang-options">
@@ -10,12 +11,14 @@
 
         <ul>
         {% assign posts = site.posts | where:"identifier", current | sort: 'lang' %}
-        {% for post in posts %} 
+        {% for post in posts %}
+        <p>1. {{current}}, 2. {{post.identifier}}</p>
         <li><a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="{{post.lang}}" href="{{ post.url | prepend: site.baseurl }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
         {% endfor %}
 
         {% assign pages = site.pages | where:"identifier", current | sort: 'lang' %}
         {% for page in pages %}
+        <p>1. {{current}}, 2. {{post.identifier}}</p>
         <li><a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[page.lang].label }}" class="{{page.lang}}" href="{{ page.url | prepend: site.baseurl }}">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</a></li>
         {% endfor %}
         </ul>
