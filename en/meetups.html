@@ -1,0 +1,55 @@
+---
+layout: page
+title: Konferencija
+caption: vidimo se
+subtitle: Dođite i pridružite nam se u izradi civilno korisnih inovacija!
+icon: direction
+background: "#4054B2"
+permalink: /meetups/
+navigation: visible
+---
+
+      <h2>Sljedeći {{ site.title }}</h2>
+      <div class="meetups">
+        {% assign curDate = site.time | date: '%s' %}
+          {% for post in site.categories.meetup %}
+            {% assign postStartDate = post.date | date: '%s' %}
+            {% if postStartDate > curDate %}
+              <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
+                <div class="preview" style="background:{{ post.background }}">
+                  <div class="date">
+                      <small>{{ post.date | date: "%b" }}</small>
+                      {{ post.date | date: "%-d" }}
+                  </div>
+                </div>
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.date | date: "%H:%M" }}, {{ post.address }}</p>
+              </a>
+              <br>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <br>
+
+        <h2>Prošli {{ site.title }}</h2>
+        <div class="meetups">
+          {% assign curDate = site.time | date: '%s' %}
+            {% for post in site.categories.meetup %}
+              {% assign postStartDate = post.date | date: '%s' %}
+              {% if curDate > postStartDate %}
+              <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
+                <div class="preview" style="background:{{ post.background }}">
+                  <div class="date">
+                      <small>{{ post.date | date: "%b" }}</small>
+                      {{ post.date | date: "%-d" }}
+                  </div>
+                </div>
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.date | date: "%H:%M" }}, {{ post.address }}</p>
+              </a>
+              <br>
+              {% endif %}
+            {% endfor %}
+          </div>
+                    
+          <p>Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.</p>

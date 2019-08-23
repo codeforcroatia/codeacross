@@ -1,0 +1,13 @@
+
+selectLang:
+  en: "Select Your Language"
+  hr: "Izaberi svoj jezik"
+relatedPosts:
+  en: "Related Posts"
+  hr: "Povezani članci"
+differentLanguage:
+  en: "Read this page in a different language"
+  hr: "Pročitajte ovu stranicu na drugom jeziku"
+viewIn:
+  en: "View in"
+  es: "Pogledaj na"

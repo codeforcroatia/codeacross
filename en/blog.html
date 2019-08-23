@@ -1,0 +1,30 @@
+---
+layout: page
+title: Blog
+caption: svježe &amp; vruće
+subtitle: Izdvojene vijesti!
+icon: newspaper
+background: "#F15823"
+permalink: /blog/
+navigation: visible
+---
+
+        <h2>Blog</h2>
+        <p>I ti možeš napisati blog post o Open Data Dayu! Potraži link za uređivanje u podnožju stranice ili nas kontaktiraj.
+        <div class="blogposts">
+            {% for post in site.categories.blog %}
+              <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
+                <div class="preview" style="background:{{ post.background }}">
+                  <div class="date">
+                      <small>{{ post.date | date: "%B" }}</small>
+                      {{ post.date | date: "%-d" }}
+                  </div>
+                </div>
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.subtitle }}</p>
+              </a>
+              <br>
+            {% endfor %}
+          </div>
+
+          <p>Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.</p>
