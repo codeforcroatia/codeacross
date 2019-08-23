@@ -1,6 +1,6 @@
 {% if page.layout != 'default' and page.lang != nil %}
-    <section class="languageSelect">
-        <div class="languageSelect">
+    <footer id="languageSelect">
+        <div class="c">
         {% if page.identifier %}
         <p>{{ site.data.translations['differentLanguage'][page.lang] }}:</p>
         {% endif %}
@@ -19,5 +19,5 @@
         {% endif %}
         {% endfor %}
         </div>
-    </section>
+    </footer>
 {% endif %}
