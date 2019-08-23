@@ -3,7 +3,8 @@ title: Open Data Day
 location: Zagreb, Hrvatska
 description: "Open Data Day je konferencija o otvorenim podacima i vikend građanskih inovacija."
 baseurl: ""
-url: "http://odd.codeforcroatia.org"
+#url: "http://odd.codeforcroatia.org"
+url: "http://schlos.github.io/opendataday"
 icon: "location"
 invitation: "Dođi i kreiraj nešto divno, nauči programirati, ili donesi svoje postojeće projekte. Bez obzira na razinu vještina, svatko je dobrodošao!"
 contact-us-url: "https://codeforcroatia.org/contact"
