@@ -23,11 +23,6 @@
         </a>
       {% endif %} {% endfor %}
 
-
-        {% if page.identifier %}
-        <em>{{ site.data.translations['differentLanguage'][page.lang] }}:</em>
-        {% endif %}
-
         {% assign posts = site.posts | where:"identifier", page.identifier | sort: 'lang' %}
         {% for post in posts %}
         {% if post.lang != page.lang and page.identifier != nil %}
