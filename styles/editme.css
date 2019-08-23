@@ -1,1 +1,7 @@
 /* Need to override something? Write your CSS here, and use !important only if neccessary.  */
+
+// Language footer section
+languageSelect {
+  background: $ltgray;
+  min-height: 100px;
+}

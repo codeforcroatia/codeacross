@@ -1,5 +1,5 @@
-{% if page.layout != 'default' %}
-    <section class="">
+{% if page.layout != 'default' and page.lang != nil %}
+    <section class="languageSelect">
         <center>
         {% if page.identifier %}
         <p>{{ site.data.translations['differentLanguage'][page.lang] }}:</p>
