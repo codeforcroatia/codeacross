@@ -15,6 +15,8 @@ categories: "meetup"
 title: "Google IO Extended"
 date: "2014-06-25 11:00:00"
 permalink: "/io-extended-2014/"
+identifier: "unique-id-per-content-for-all-languages"
+lang: en
 host: "Jon Moss"
 address: "Suite 404, 90 John Street, NYC"
 link: "https://www.facebook.com/events/294642260712985/"
@@ -25,10 +27,11 @@ background: "url(http://i.imgur.com/U9bGouP.jpg)"
 ## Todo
 
 - [ ] Mentorship content type
-- [ ] Blog content type
+- [x] Blog content type
 - [ ] Set up Jenkins CI
 - [ ] Enable GitHub pages plugins
 - [ ] Test run #43 @world-domination/time-travel
+- [x] Translation function (see [dwalkr/jekyll-multilingual](https://github.com/dwalkr/jekyll-multilingual))
 
 ## Upgrading
 
