@@ -1,7 +1,7 @@
 {% if page.layout != 'default' %}
 
     <footer class="lang-options">
-        {% if page.identifier %}
+        {% if identifier %}
         <em>{{ site.data.translations['differentLanguage'][post.lang] }}:</em>
         {% elsif post.identifier %}
         <em>{{ site.data.translations['differentLanguage'][page.lang] }}:</em>
@@ -11,7 +11,6 @@
         {% assign posts = site.posts | where:"identifier", post.identifier | sort: 'lang' %}
         {% for post in posts %}
         {% if post.identifier == nil %}
-        <p>1. {{current}}, 2. {{post.identifier}}</p>
         {% else %}
         <li><a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="{{post.lang}}" href="{{ post.url | prepend: site.baseurl }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
         {% endif %}
@@ -20,7 +19,6 @@
         {% assign pages = site.pages | where:"identifier", post.identifier | sort: 'lang' %}
         {% for page in pages %}
         {% if page.identifier == nil %}
-        <p>1. {{current}}, 2. {{post.identifier}}</p>
         {% else %}
         <li><a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[page.lang].label }}" class="{{page.lang}}" href="{{ page.url | prepend: site.baseurl }}">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</a></li>
         {% endif %}
