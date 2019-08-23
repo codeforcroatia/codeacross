@@ -7,7 +7,7 @@ identifier: "about"
 lang: hr
 icon: "code"
 background: "#60D317"
-permalink: "/about/"
+permalink: "/o-nama/"
 navigation: "visible"
 ---
 
