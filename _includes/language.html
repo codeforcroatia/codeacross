@@ -1,48 +1,24 @@
 {% if page.layout != 'default' %}
     <footer class="lang-options">
         <center>
-        <p>1 {{ page.categories }}
-2 {{ page.layout }}
-3 {{ page.title }}
-4 {{ page.subtitle }}
-5 {{ page.lang }}
-6 {{ page.identifier }}
-7 {{ page.author }}
-8 {{ page.author-link }}
-9 {{ page.background }}
-10 {{ page.published }}</p>
-<p>1 {{ post.categories }}
-2 {{ post.layout }}
-3 {{ post.title }}
-4 {{ post.subtitle }}
-5 {{ post.lang }}
-6 {{ post.identifier }}
-7 {{ post.author }}
-8 {{ post.author-link }}
-9 {{ post.background }}
-10 {{ post.published }}</p>
-
-
-        {% if post.identifier %}
-        <em>{{ site.data.translations['differentLanguage'][post.lang] }}:</em>
-        {% elsif post.identifier %}
+        {% if page.identifier %}
         <em>{{ site.data.translations['differentLanguage'][page.lang] }}:</em>
         {% endif %}
 
-        {% assign posts = site.posts | where:"identifier", post.identifier | sort: 'lang' %}
-        {% for post in posts %}
+        {% assign posts = site.posts | where:"identifier", page.identifier | sort: 'lang' %}
+        <!-- {% for post in posts %}
         {% if post.identifier == nil %}
-        {% else %}
-        <a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="{{post.lang}}" href="{{ post.url | prepend: site.baseurl }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a>
-        {% endif %}
+        {% else %} -->
+        <a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[page.lang].label }}" class="{{page.lang}}" href="{{ page.url | prepend: site.baseurl }}">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</a>
+        <!-- {% endif %} -->
         {% endfor %}
 
-        {% assign pages = site.pages | where:"identifier", post.identifier | sort: 'lang' %}
-        {% for page in pages %}
+        {% assign pages = site.pages | where:"identifier", page.identifier | sort: 'lang' %}
+        <!-- {% for page in pages %}
         {% if page.identifier == nil %}
-        {% else %}
+        {% else %} -->
         <a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[page.lang].label }}" class="{{page.lang}}" href="{{ page.url | prepend: site.baseurl }}">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</a>
-        {% endif %}
+        <!-- {% endif %} -->
         {% endfor %}
         </center>
 {% endif %}
