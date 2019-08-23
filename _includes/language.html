@@ -1,6 +1,18 @@
 {% if page.layout != 'default' %}
     <footer class="lang-options">
         <center>
+        <p>1 {{ categories }}
+2 {{ layout }}
+3 {{ title }}
+4 {{ subtitle }}
+5 {{ lang }}
+6 {{ identifier }}
+7 {{ author }}
+8 {{ author-link }}
+9 {{ background }}
+10 {{ published }}</p>
+
+
         {% if post.identifier %}
         <em>{{ site.data.translations['differentLanguage'][post.lang] }}:</em>
         {% elsif post.identifier %}
