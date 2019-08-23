@@ -6,11 +6,14 @@
         {% endif %}
 
         {% assign posts = site.posts | where:"identifier", page.identifier | sort: 'lang' %}
+        {% for post in posts %}
         <a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="{{post.lang}}" href="{{ post.url | prepend: site.baseurl }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a>
         {% endfor %}
 
         {% assign pages = site.pages | where:"identifier", page.identifier | sort: 'lang' %}
+        {% for page in pages %}
         <a title="{{ site.data.translations['viewIn'][page.lang] }} {{ site.data.languages[page.lang].label }}" class="{{page.lang}}" href="{{ page.url | prepend: site.baseurl }}">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</a>
         {% endfor %}
         </center>
+    </footer>
 {% endif %}
