@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Otvoreni podaci gorivo za demokraciju, sirovina za gospodarski rast
 subtitle: "Otvoreni podaci predstavljaju gorivo za demokraciju u smislu otvorenosti i transparentnosti"
-permalink: "/codeacross-2015-konferencija-izvjestaj/"
+lang: hr
+lang-ref: codeacross-2015-konferencija-izvjestaj
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"
@@ -16,4 +17,4 @@ Lako bi se moglo odmahnuti rukom i reći – u Hrvatskoj? Pa to bi bila znanstve
 
 I stoga bi to valjalo imati na umu svakodnevno, a ne samo uoči međunarodnog Dana otvorenih podataka, koji se diljem svijeta obilježava 21. veljače kroz organizaciju CodeAcross - vikenda građanskih inovacija, kojeg su da bi raspravili aktualnu problematiku vezanu uz otvaranje baza podataka u Hrvatskoj te doprinijeli korištenju postojećih baza, udruge Programiraj za Hrvatsku i GONG u suradnji s Partnerstvom za otvorenu vlast organizirali petkovnu konferenciju i subotnji hackaton „Principi vlasti za 21. stoljeće“ u prostoru i uz partnersku podršku Sveučilišnog računskog centra u Zagrebu.
 
-Source [gong.hr](https://www.gong.hr/hr/dobra-vladavina/pristup-informacijama/otvoreni-podaci-gorivo-za-demokraciju-sirovina-za-/)...
+Pročitaj [više na gong.hr](https://www.gong.hr/hr/dobra-vladavina/pristup-informacijama/otvoreni-podaci-gorivo-za-demokraciju-sirovina-za-/)...
