@@ -1,6 +1,6 @@
 {% if page.layout != 'default' and page.lang != nil %}
     <section class="languageSelect">
-        <center>
+        <div class="languageSelect">
         {% if page.identifier %}
         <p>{{ site.data.translations['differentLanguage'][page.lang] }}:</p>
         {% endif %}
@@ -18,6 +18,6 @@
         <a title="{{ site.data.translations['viewIn'][content.lang] }} {{ site.data.languages[content.lang].label }}" class="dotted-link" href="{{ content.url | prepend: site.baseurl }}">{{ site.data.languages[content.lang].icon }} {{ site.data.languages[content.lang].label }}</a><br>
         {% endif %}
         {% endfor %}
-        </center>
-    </footer>
+        </div>
+    </section>
 {% endif %}
