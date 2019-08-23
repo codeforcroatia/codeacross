@@ -9,8 +9,8 @@ permalink: /blog/
 navigation: visible
 ---
 
-        <h2>Blog</h2>
-        <p>I ti možeš napisati blog post o Open Data Dayu! Potraži link za uređivanje u podnožju stranice ili nas kontaktiraj.
+        <h2>{{ site.data.translations['blogTitle'][page.lang] }}</h2>
+        <p>{{ site.data.translations['blogInvitation'][page.lang] }}
         <div class="blogposts">
             {% for post in site.categories.blog %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -27,4 +27,4 @@ navigation: visible
             {% endfor %}
           </div>
 
-          <p>Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.</p>
+          <p>{{ site.data.translations['forDebug'][page.lang] }} {{ site.time | date: '%s' }} {{ site.data.translations['unixTime'][page.lang] }}.</p>

@@ -9,8 +9,8 @@ lang: en
 
 <header>
   <div class="c">
-    <h1>Open Data Day Hrvatska</h1>
-    <p class="lead">Vikend građanskih inovacija.</p>
+    <h1>{{ site.data.translations['indexTitle'][page.lang] }}</h1>
+    <p class="lead">{{ site.data.translations['indexTagline'][page.lang] }}</p>
   </div>
 </header>
 
@@ -20,11 +20,10 @@ lang: en
 <section class="home">
   <div class="c">
 
-      <h2>Sljedeći {{ site.title }}</h2>
+      <h2>{{ site.data.translations['next'][page.lang] }} {{ site.title }}</h2>
       <div class="meetups">
-        {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
         {% assign curDate = site.time | date: '%s' %}
-          {% for post in meetups %}
+          {% for post in site.categories.meetup %}
             {% assign postStartDate = post.date | date: '%s' %}
             {% if postStartDate > curDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -43,11 +42,10 @@ lang: en
         </div>
         <br>
 
-        <h2>Prošli {{ site.title }}</h2>
+        <h2>{{ site.data.translations['previous'][page.lang] }} {{ site.title }}</h2>
         <div class="meetups">
-          {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
           {% assign curDate = site.time | date: '%s' %}
-            {% for post in meetups limit:3 %}
+            {% for post in site.categories.meetup limit:3 %}
               {% assign postStartDate = post.date | date: '%s' %}
               {% if curDate > postStartDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -65,10 +63,9 @@ lang: en
             {% endfor %}
           </div>
   
-        <h2>Zadnji postovi</h2>
+        <h2>{{ site.data.translations['recentPosts'][page.lang] }}</h2>
         <div class="blogposts">
-          {% assign posts = site.categories.blog | where:"lang", page.lang %}
-            {% for post in posts limit:4 %}
+            {% for post in site.categories.blog limit:4 %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">
                   <div class="date">
@@ -85,4 +82,3 @@ lang: en
 
   </div>
 </section>
-

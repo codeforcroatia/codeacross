@@ -5,6 +5,7 @@ description: "Open Data Day je konferencija o otvorenim podacima i vikend građa
 baseurl: "/opendataday/"
 #url: "http://odd.codeforcroatia.org"
 url: "http://schlos.github.io/opendataday"
+#haxicons - check icon codes at https://icomoon.io/#preview-free
 icon: "location"
 invitation: "Dođi i kreiraj nešto divno, nauči programirati, ili donesi svoje postojeće projekte. Bez obzira na razinu vještina, svatko je dobrodošao!"
 contact-us-url: "https://codeforcroatia.org/contact"

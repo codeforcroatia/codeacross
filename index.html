@@ -9,8 +9,8 @@ lang: hr
 
 <header>
   <div class="c">
-    <h1>Open Data Day Hrvatska</h1>
-    <p class="lead">Vikend građanskih inovacija.</p>
+    <h1>{{ site.data.translations['indexTitle'][page.lang] }}</h1>
+    <p class="lead">{{ site.data.translations['indexTagline'][page.lang] }}</p>
   </div>
 </header>
 
@@ -20,7 +20,7 @@ lang: hr
 <section class="home">
   <div class="c">
 
-      <h2>Sljedeći {{ site.title }}</h2>
+      <h2>{{ site.data.translations['next'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
       <div class="meetups">
         {% assign curDate = site.time | date: '%s' %}
           {% for post in site.categories.meetup %}
@@ -42,7 +42,7 @@ lang: hr
         </div>
         <br>
 
-        <h2>Prošli {{ site.title }}</h2>
+        <h2>{{ site.data.translations['previous'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
         <div class="meetups">
           {% assign curDate = site.time | date: '%s' %}
             {% for post in site.categories.meetup limit:3 %}
@@ -63,7 +63,7 @@ lang: hr
             {% endfor %}
           </div>
   
-        <h2>Zadnji postovi</h2>
+        <h2>{{ site.data.translations['recentPosts'][page.lang] }}</h2>
         <div class="blogposts">
             {% for post in site.categories.blog limit:4 %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">

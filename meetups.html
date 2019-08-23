@@ -9,7 +9,7 @@ permalink: /meetups/
 navigation: visible
 ---
 
-      <h2>Sljedeći {{ site.title }}</h2>
+      <h2>{{ site.data.translations['next'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
       <div class="meetups">
         {% assign curDate = site.time | date: '%s' %}
           {% for post in site.categories.meetup %}
@@ -31,7 +31,7 @@ navigation: visible
         </div>
         <br>
 
-        <h2>Prošli {{ site.title }}</h2>
+        <h2>{{ site.data.translations['previous'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
         <div class="meetups">
           {% assign curDate = site.time | date: '%s' %}
             {% for post in site.categories.meetup %}
@@ -52,4 +52,4 @@ navigation: visible
             {% endfor %}
           </div>
                     
-          <p>Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.</p>
+          <p>{{ site.data.translations['forDebug'][page.lang] }} {{ site.time | date: '%s' }} {{ site.data.translations['unixTime'][page.lang] }}.</p>

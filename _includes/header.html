@@ -6,8 +6,8 @@
       <a href="/" class="logo">
         <i class="icon-{{ site.icon }}"></i>
         <div>
-          {{ site.title }}
-          <small>{{ site.location }}</small>
+          {{ site.data.translations['title'][page.lang] }}
+          <small>{{ site.data.translations['location'][page.lang] }}</small>
         </div>
       </a>
       <a href="#" onclick="$('nav').toggleClass('expanded')" class="menu-button visible-mobile right">
