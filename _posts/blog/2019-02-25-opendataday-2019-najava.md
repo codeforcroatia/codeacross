@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Najava - Zajedno za otvaranje javnih podataka
 subtitle: "Dana otvorenih podataka izvrsna je prilika za otvaranje javne diskusije o politici otvorenih podataka Vlade Republike Hrvatske"
-permalink: "/opendataday-2019-najava/"
+identifier: "opendataday-2019-najava"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

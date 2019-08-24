@@ -2,9 +2,9 @@
 <section id="notifications" class="bg-accent">
   <div class="c">
 
-      <h3>Prijavi se za {{ site.title }} obavijesti</h3>
+      <h3>{{ site.data.translations['signUpAnnouncements'][page.lang] }}</h3>
       <p class="rss-subscribe">
-        Pretplati se putem
+        {{ site.data.translations['signUpVia'][page.lang] }}
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="icon-broadcast"></i> RSS</a>
         | {% if site.email %}
         <a href="{{ site.email }}" target="_blank"><i class="icon-envelope"></i> E-mail</a>
@@ -28,17 +28,17 @@
   <div class="c">
     <div class="row">
       <div class="col-33">
-        <h3>{{ site.title }}</h3>
-        <p>{{ site.description }}</p>
-        <p>{{ site.invitation }}</p>
+        <h3>{{ site.data.translations['title'][page.lang] }}</h3>
+        <p>{{ site.data.translations['description'][page.lang] }}</p>
+        <p>{{ site.data.translations['invitation'][page.lang] }}</p>
         <p>
-          <a href="/about"><i class="icon-plus"></i> Saznaj više</a>
+          <a href="/about"><i class="icon-plus"></i> {{ site.data.translations['learnMore'][page.lang] }}</a>
           <br>
-          <a href="/about#code-of-conduct"><i class="icon-grid"></i> Kodeks ponašanja</a>
+          <a href="/about#code-of-conduct"><i class="icon-grid"></i> {{ site.data.translations['codeOfConduct'][page.lang] }}</a>
          </p>
       </div>
       <div class="col-33">
-        <h3>Ostala događanja</h3>
+        <h3>{{ site.data.translations['otherFooter'][page.lang] }}</h3>
         <!-- List of meetups go here! -->
         <p>
           {% if site.meetup1 %}
@@ -58,15 +58,14 @@
           <br>
           {% endif %}
         </p>
-        <h3>Kontaktiraj nas</h3>
+        <h3>{{ site.data.translations['contactUs'][page.lang] }}</h3>
         <a href="{{ site.contact-us-url }}" target="_blank"><i class="icon-planet"></i> {{ site.maintainers }}</a>
       </div>
       <div class="col-33 hidden-mobile">
         <h3>@{{ site.twitter }}</h3>
-        <!-- Widget <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/{{ site.twitter }}"  data-widget-id="{{ site.twitter-widget-id }}" data-screen-name="{{ site.twitter }}" data-link-color="{{ site.accent }}"><i class="icon-twitter"></i> Tweets by @{{ site.twitter }}</a> 
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
-        <!-- Twitter follow button large -->
-        <a href="https://twitter.com/{{ site.twitter }}?ref_src={{ site.twitter-ref-src }}" class="twitter-follow-button" data-size="large" data-show-count="false">Prati @{{ site.twitter }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/{{ site.twitter }}?ref_src={{ site.twitter-ref-src }}" class="twitter-follow-button" data-size="large" data-show-count="false">{{ site.data.translations['follow'][page.lang] }} @{{ site.twitter }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <br>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F{{ site.facebook }}%2F&width=300&layout=button&action=recommend&size=large&show_faces=false&share=true&height=65&appId" width="100%" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
       </div>
     </div>
   </div>
@@ -75,15 +74,15 @@
 
 <div class="footnote">
   <div class="c">
-    <a class="to-the-moon right" href="#top"><i class="icon-pointer-up"></i> Natrag na vrh</a>
-    <p><a href="{{ site.maintainers-url }}" target="_blank"><i class="icon-code"></i> {{ site.maintainers }}</a> održava &amp; njeguje sa &nbsp; <i class="icon-heart love" title="love"></i> &nbsp; a sve je smješteno na <a href="http://github.com/{{ site.github }}/" target="_blank"><i class="icon-github"></i> GitHub Pages</a>. &nbsp; 
+    <a class="to-the-moon right" href="#top"><i class="icon-pointer-up"></i> {{ site.data.translations['backToTop'][page.lang] }}</a>
+    <p><a href="{{ site.maintainers-url }}" target="_blank"><i class="icon-code"></i> {{ site.maintainers }}</a> {{ site.data.translations['maintainesWith'][page.lang] }} &nbsp; <i class="icon-heart love" title="love"></i> &nbsp; {{ site.data.translations['hostedOn'][page.lang] }} <a href="http://github.com/{{ site.github }}/" target="_blank"><i class="icon-github"></i> GitHub Pages</a>. &nbsp; 
       {% if page.category == meetup %}
       <a href="http://prose.io/#{{ site.github }}/tree/gh-pages/" target="_blank"><i class="icon-pencil"></i> 
       {% elsif page.category != meetup %}
       <a href="http://prose.io/#{{ site.github }}/tree/gh-pages/" target="_blank"><i class="icon-pencil"></i> 
       {% endif %}
       <!-- edit specific page <a href="http://prose.io/#{{ site.github }}/tree/gh-pages/{{page.path}}" target="_blank"><i class="icon-pencil"></i>  -->
-      &nbsp; Uredi putem usluge Prose</a>.</p> 
+      &nbsp; {{ site.data.translations['editViaProse'][page.lang] }}</a>.</p> 
   </div>
 </div>
 

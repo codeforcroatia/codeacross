@@ -1,0 +1,94 @@
+
+selectLang:
+  en: "Select Your Language"
+  hr: "Izaberi svoj jezik"
+relatedPosts:
+  en: "Related Posts"
+  hr: "Povezani članci"
+differentLanguage:
+  en: "Read this page in a different language"
+  hr: "Pročitaj ovu stranicu na drugom jeziku"
+viewIn:
+  en: "View in"
+  hr: "Prebaci na"
+title:
+  en: "Open Data Day"
+  hr: "Dan otvorenih podataka"
+location:
+  en: "Zagreb, Croatia"
+  hr: "Zagreb, Hrvatska"
+description:
+  en: "Open Data Day is a open data conference and weekend dedicated to civic hacking."
+  hr: "Dan otvorenih podataka je konferencija o otvorenim podacima i vikend građanskih inovacija."
+invitation:
+  en: "Come to create something awesome, learn how to code, or bring your existing projects. No matter your skill level, anyone is welcome!"
+  hr: "Dođi i kreiraj nešto divno, nauči programirati, ili donesi svoje postojeće projekte. Bez obzira na razinu vještina, svatko je dobrodošao!"
+indexTitle:
+  en: "Open Data Day Croatia"
+  hr: "Open Data Day Hrvatska"
+indexTagline:
+  en: "Civic hacking weekend."
+  hr: "Vikend građanskih inovacija."
+next:
+  en: "Next"
+  hr: "Sljedeći"
+previous:
+  en: "Previous"
+  hr: "Prošli"
+recentPosts:
+  en: "Recent posts"
+  hr: "Zadnji postovi"
+signUpAnnouncements:
+  en: "Sign up for Open Data Day announcements"
+  hr: "Prijavi se za Open Data Day obavijesti"
+signUpVia:
+  en: "Sign up via"
+  hr: "Pretplati se putem"
+otherFooter:
+  en: "Other events"
+  hr: "Ostala događanja"
+contactUs:
+  en: "Contact us"
+  hr: "Kontaktiraj nas"
+learnMore:
+  en: "Learn more"
+  hr: "Saznaj više"
+codeOfConduct:
+  en: "Code of conduct"
+  hr: "Kodeks ponašanja"
+maintainesWith:
+  en: "maintaines with"
+  hr: "održava & njeguje sa"
+hostedOn:
+  en: "and everything is hosted on great"
+  hr: "a sve je smješteno na"
+editViaProse:
+  en: "Edit in Prose"
+  hr: "Uredi putem usluge Prose"
+backToTop:
+  en: "Back to Top"
+  hr: "Natrag na vrh"
+forDebug:
+  en: "For the debugging purposes, this site was last built at"
+  hr: "Za potrebe debugiranja, ova stranica je izrađena u"
+unixTime:
+  en: "UNIX time"
+  hr: "po UNIX vremenu"
+blogTitle:
+  en: "Blog"
+  hr: "Blog"
+blogInvitation:
+  en: "You can write blog posts too! Check link to edit below or contact us."
+  hr: "I ti možeš napisati blog post o Open Data Dayu! Potraži link za uređivanje u podnožju stranice ili nas kontaktiraj."
+follow:
+  en: "Follow"
+  hr: "Prati"
+selectRedPill:
+  en: "select red pill"
+  hr: "izabrei crvenu pilulu"
+organizers:
+  en: "Code for Croatia and GONG"
+  hr: "Programiraj za Hrvatsku i GONG"
+maintainers:
+  en: "Code for Croatia"
+  hr: "Programiraj za Hrvatsku"

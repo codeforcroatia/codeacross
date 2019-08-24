@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Najava konferencija Principi vlasti za 21. stoljeće
 subtitle: "Konferenacija Principi vlasti za 21. stoljeće povodom međunarodnog Dana otvorenih podataka i vikenda građanskih inovacija"
-permalink: "/codeacross-2015-konferencija/"
+identifier: "codeacross-2015-konferencija"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

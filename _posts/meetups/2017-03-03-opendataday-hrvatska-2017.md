@@ -4,7 +4,9 @@ meetup: meetup
 layout: meetup
 title: Open Data Day Hrvatska 2017 konferencija
 date: "2017-03-03 09:30:00"
-permalink: "/opendataday-hrvatska-2017-konferencija/"
+permalink: "/2017-konferencija/"
+identifier: "opendataday-hrvatska-2017-konferencija"
+lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Srce, Josipa Marohnića 5, Zagreb"
 link: "http://odd.codeforcroatia.org/2017/"

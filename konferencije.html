@@ -1,30 +1,21 @@
 ---
-layout: default
-background: "url(http://odd.codeforcroatia.org/2016/img/photos/20160306_codeacross_and_opendataday_d_marija_havaic_13.jpg) #03A9F4"
-identifier: index
+layout: page
+title: Konferencije
+caption: vidimo se
+subtitle: Dođite i pridružite nam se u izradi civilno korisnih inovacija!
+identifier: "meetups"
 lang: hr
+icon: direction
+background: "#4054B2"
+permalink: /konferencije/
+navigation: visible
 ---
-
-<!-- stock background image: http://i.imgur.com/oPGTBiS.jpg -->
-
-<header>
-  <div class="c">
-    <h1>{{ site.data.translations['indexTitle'][page.lang] }}</h1>
-    <p class="lead">{{ site.data.translations['indexTagline'][page.lang] }}</p>
-  </div>
-</header>
-
-<!-- END COVER -->
-</div>
-
-<section class="home">
-  <div class="c">
 
       <h2>{{ site.data.translations['next'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
       <div class="meetups">
         {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
         {% assign curDate = site.time | date: '%s' %}
-          {% for post in meetups limit:3 %}
+          {% for post in meetups %}
             {% assign postStartDate = post.date | date: '%s' %}
             {% if postStartDate > curDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -47,7 +38,7 @@ lang: hr
         <div class="meetups">
           {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
           {% assign curDate = site.time | date: '%s' %}
-            {% for post in meetups limit:3 %}
+            {% for post in meetups %}
               {% assign postStartDate = post.date | date: '%s' %}
               {% if curDate > postStartDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -64,25 +55,5 @@ lang: hr
               {% endif %}
             {% endfor %}
           </div>
-  
-        <h2>{{ site.data.translations['recentPosts'][page.lang] }}</h2>
-        <div class="blogposts">
-          {% assign posts = site.categories.blog | where:"lang", page.lang %}
-            {% for post in posts limit:4 %}
-              <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
-                <div class="preview" style="background:{{ post.background }}">
-                  <div class="date">
-                      <small>{{ post.date | date: "%b" }}</small>
-                      {{ post.date | date: "%-d" }}
-                  </div>
-                </div>
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.subtitle }}</p>
-              </a>
-              <br>
-            {% endfor %}
-          </div>
-
-  </div>
-</section>
-
+                    
+          <p>{{ site.data.translations['forDebug'][page.lang] }} {{ site.time | date: '%s' }} {{ site.data.translations['unixTime'][page.lang] }}.</p>

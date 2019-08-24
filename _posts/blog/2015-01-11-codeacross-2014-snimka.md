@@ -1,10 +1,10 @@
 ---
 categories: blog
 layout: blog
-title: CodeAcross Hrvatska 2014 - Let's take the data beyond transparency
-subtitle: "Check out our video summary from CodeAcross Croatia 2014!"
+title: CodeAcross Hrvatska 2014 - Više od transparentnosti
+subtitle: "Pogledaj kako je to izgledalo 2014. godine!"
 identifier: "codeacross-2014-snimka"
-lang: en
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Otvorenim podacima protiv korupcije
 subtitle: "Nepostojanje sustavne politike, naplata otvaranja podataka, ignoriranje odluka Povjerenika za informiranje..."
-permalink: "/opendataday-2018-konferencija-izvjestaj/"
+identifier: "opendataday-2018-konferencija-izvjestaj"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Blog
-caption: fresh &amp; hot
-subtitle: Curated news!
+title: Novosti
+caption: svježe &amp; vruće
+subtitle: Izdvojene vijesti!
 identifier: "blog"
-lang: en
+lang: hr
 icon: newspaper
 background: "#F15823"
-permalink: /blog/
+permalink: /novosti/
 navigation: visible
 ---
 
         <h2>{{ site.data.translations['blogTitle'][page.lang] }}</h2>
         <p>{{ site.data.translations['blogInvitation'][page.lang] }}
         <div class="blogposts">
-            {% assign news = site.categories.blog | where:"lang", page.lang %}
+          {% assign news = site.categories.blog | where:"lang", page.lang %}
             {% for post in news %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">

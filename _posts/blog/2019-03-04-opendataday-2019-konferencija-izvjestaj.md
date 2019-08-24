@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Brojni podaci o tijelima javne vlasti i dalje zatvoreni
 subtitle: "Otvoreni podaci su resurs koji se može nazvati i naftom 21. stoljeća"
-permalink: "/opendataday-2019-konferencija-izvjestaj/"
+identifier: "opendataday-2019-konferencija-izvjestaj"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

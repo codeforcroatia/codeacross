@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Najava – Otvoreni podaci za transparentnu vlast
 subtitle: "Kako Hrvatska odgovara na izazove digitalne transformacije javnog sektora, saznajte na Danu otvorenih podataka u Zagrebu"
-permalink: "/opendataday-2018-najava/"
+identifier: "opendataday-2018-najava"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

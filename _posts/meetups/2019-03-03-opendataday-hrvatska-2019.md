@@ -4,7 +4,9 @@ meetup: meetup
 layout: meetup
 title: Open Data Day Hrvatska 2019 datathon
 date: "2019-03-03 09:30:00"
-permalink: "/opendataday-hrvatska-2019-datathon-ned/"
+permalink: "/2019-datathon-ned/"
+identifier: "opendataday-hrvatska-2019-datathon-ned"
+lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "HUB385, Petračićeva ul. 6, Zagreb"
 link: "http://odd.codeforcroatia.org/2019/"

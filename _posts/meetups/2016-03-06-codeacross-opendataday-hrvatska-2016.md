@@ -4,7 +4,9 @@ meetup: meetup
 layout: meetup
 title: CodeAcross & OpenDataDay Hrvatska 2016 hackathon
 date: "2016-03-06 10:00:00"
-permalink: "/codeacross-opendataday-hrvatska-2016-hackathon-ned/"
+permalink: "/2016-hackathon-ned/"
+identifier: "codeacross-opendataday-hrvatska-2016-hackathon-ned"
+lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "FER, Unska 3, Zagreb"
 link: "http://odd.codeforcroatia.org/2016/"

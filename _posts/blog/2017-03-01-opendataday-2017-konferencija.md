@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Poziv na Okrugli stol o ponovnoj uporabi informacija u Hrvatskoj
 subtitle: "Kako bi obilježili globalni Dan otvorenih podataka, pozivamo Vas da se pridružite vikendu građanskih inovacija Open Data Day Hrvatska 2017"
-permalink: "/opendataday-2018-datathon-izvjestaj/"
+identifier: "opendataday-2017-konferencija"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

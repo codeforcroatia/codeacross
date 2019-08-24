@@ -4,7 +4,9 @@ meetup: meetup
 layout: meetup
 title: CodeAcross & OpenDataDay Hrvatska 2016 konferencija
 date: "2016-03-04 10:00:00"
-permalink: "/codeacross-opendataday-hrvatska-2016-konferencija/"
+permalink: "/2016-konferencija/"
+identifier: "codeacross-opendataday-hrvatska-2016-konferencija"
+lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Algebra, Ilica 242, Zagreb"
 link: "http://odd.codeforcroatia.org/2016/"

@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Najava panel diskusije Više od transparentnosti
 subtitle: "Panel diskusija Više od transparentnosti povodom međunarodnog Dana otvorenih podataka"
-permalink: "/codeacross-2014-konferencija/"
+identifier: "codeacross-2014-konferencija"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"
