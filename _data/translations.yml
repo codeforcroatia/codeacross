@@ -53,6 +53,9 @@ contactUs:
 learnMore:
   en: "Learn more"
   hr: "Saznaj više"
+learnMorePath:
+  en: "/about"
+  hr: "/o-nama"
 codeOfConduct:
   en: "Code of conduct"
   hr: "Kodeks ponašanja"
