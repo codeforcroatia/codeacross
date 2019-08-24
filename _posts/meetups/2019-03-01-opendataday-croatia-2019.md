@@ -2,11 +2,11 @@
 categories: meetup
 meetup: meetup
 layout: meetup
-title: Open Data Day Hrvatska 2019 konferencija
+title: Open Data Day Croatia 2019 conference
 date: "2019-03-01 10:00:00"
-permalink: "/2019-konferencija/"
+permalink: "/en/2019-conference/"
 identifier: "opendataday-hrvatska-2019-konferencija"
-lang: hr
+lang: en
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "HUB385, Petračićeva ul. 6, Zagreb"
 link: "http://odd.codeforcroatia.org/2019/"

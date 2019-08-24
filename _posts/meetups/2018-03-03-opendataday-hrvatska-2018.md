@@ -4,7 +4,9 @@ meetup: meetup
 layout: meetup
 title: Open Data Day Hrvatska 2018 datathon
 date: "2018-03-03 09:30:00"
-permalink: "/opendataday-hrvatska-2018-datathon-sub/"
+permalink: "/2018-datathon-sub/"
+identifier: "opendataday-hrvatska-2018-datathon-sub"
+lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Srce, Josipa Marohnića 5, Zagreb"
 link: "http://odd.codeforcroatia.org/2018/"

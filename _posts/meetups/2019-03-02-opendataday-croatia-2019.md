@@ -2,15 +2,15 @@
 categories: meetup
 meetup: meetup
 layout: meetup
-title: Open Data Day Hrvatska 2019 konferencija
-date: "2019-03-01 10:00:00"
-permalink: "/2019-konferencija/"
-identifier: "opendataday-hrvatska-2019-konferencija"
-lang: hr
+title: Open Data Day Croatia 2019 datathon
+date: "2019-03-02 09:30:00"
+permalink: "/en/2019-datathon-sub/"
+identifier: "opendataday-hrvatska-2019-datathon-sub"
+lang: en
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "HUB385, Petračićeva ul. 6, Zagreb"
 link: "http://odd.codeforcroatia.org/2019/"
-background: "url(https://odd.codeforcroatia.org/2019/img/red-overlay.png)"
+background: "url(https://odd.codeforcroatia.org/2019/img/blue-overlay.png)"
 published: true
 ---
 
@@ -20,9 +20,9 @@ Open Data Day je vikend građanskih inovacija koji se od 1. do 3. ožujka 2019. 
 
 Pridruži nam se u HUB385 1. - 3. ožujka.
 
-# Panel rasprava
+# Vikend datathon
 
-Zbog čega je tako teško dobiti otvorene podatke od hrvatskih javnih tijela, zbog čega ih najčešće žele posebno naplatiti, hoće li Politika otvorenih podataka to promijeniti ili Uredba o troškovima ponovne uporabe informacija najavljuje da ćemo morati plaćati otvoreni pristup javnim podacima? 
+Vikend za haktiviste – kreirajte open source projekte i otvorite podatke o rezultatima eSavjetovanja, isprobajte API Parlametra - aplikacije za praćenje rada Hrvatskog sabora, uključite se u istraživanje o financiranju hrvatskih udruga ili dostupnosti medicinske usluge prekida trudnoće u hrvatskim bolnicama. 
 
 Za detalje posjetite stranicu:
 
