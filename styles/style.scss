@@ -67,8 +67,8 @@ $media-desktop-min: 1025px !default;
 // Typography
 @import "global/_type.scss";
 
-// Franklin Ghotic
-@import url(../fonts/franklin-ghotic/stylesheet.css);
+// Didact Gothic Font
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 
 // Prettyprint
 @import "global/_prettyprint-monokai.scss";
