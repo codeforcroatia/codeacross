@@ -15,7 +15,7 @@ navigation: visible
       <div class="meetups">
         {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
         {% assign curDate = site.time | date: '%s' %}
-          {% for post in meetups }
+          {% for post in meetups limit:3 %}
             {% assign postStartDate = post.date | date: '%s' %}
             {% if postStartDate > curDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -38,7 +38,7 @@ navigation: visible
         <div class="meetups">
           {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
           {% assign curDate = site.time | date: '%s' %}
-            {% for post in meetups }
+            {% for post in meetups limit:3 %}
               {% assign postStartDate = post.date | date: '%s' %}
               {% if curDate > postStartDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
