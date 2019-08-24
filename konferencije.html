@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Konferencija
+title: Konferencije
 caption: vidimo se
 subtitle: Dođite i pridružite nam se u izradi civilno korisnih inovacija!
 identifier: "meetups"
@@ -13,8 +13,9 @@ navigation: visible
 
       <h2>{{ site.data.translations['next'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
       <div class="meetups">
+        {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
         {% assign curDate = site.time | date: '%s' %}
-          {% for post in site.categories.meetup %}
+          {% for post in meetups }
             {% assign postStartDate = post.date | date: '%s' %}
             {% if postStartDate > curDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -35,8 +36,9 @@ navigation: visible
 
         <h2>{{ site.data.translations['previous'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
         <div class="meetups">
+          {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
           {% assign curDate = site.time | date: '%s' %}
-            {% for post in site.categories.meetup %}
+            {% for post in meetups }
               {% assign postStartDate = post.date | date: '%s' %}
               {% if curDate > postStartDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">

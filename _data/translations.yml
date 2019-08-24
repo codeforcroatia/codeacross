@@ -86,3 +86,9 @@ follow:
 selectRedPill:
   en: "select red pill"
   hr: "izabrei crvenu pilulu"
+organizers:
+  en: "Code for Croatia and GONG"
+  hr: "Programiraj za Hrvatsku i GONG"
+maintainers:
+  en: "Code for Croatia"
+  hr: "Programiraj za Hrvatsku"

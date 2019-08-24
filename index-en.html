@@ -21,10 +21,11 @@ permalink: /en/
 <section class="home">
   <div class="c">
 
-      <h2>{{ site.data.translations['next'][page.lang] }} {{ site.title }}</h2>
+      <h2>{{ site.data.translations['next'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
       <div class="meetups">
+        {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
         {% assign curDate = site.time | date: '%s' %}
-          {% for post in site.categories.meetup %}
+          {% for post in meetups limit:3 %}
             {% assign postStartDate = post.date | date: '%s' %}
             {% if postStartDate > curDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -43,10 +44,11 @@ permalink: /en/
         </div>
         <br>
 
-        <h2>{{ site.data.translations['previous'][page.lang] }} {{ site.title }}</h2>
+        <h2>{{ site.data.translations['previous'][page.lang] }} {{ site.data.translations['title'][page.lang] }}</h2>
         <div class="meetups">
+          {% assign meetups = site.categories.meetup | where:"lang", page.lang %}
           {% assign curDate = site.time | date: '%s' %}
-            {% for post in site.categories.meetup limit:3 %}
+            {% for post in meetups limit:3 %}
               {% assign postStartDate = post.date | date: '%s' %}
               {% if curDate > postStartDate %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
@@ -66,7 +68,8 @@ permalink: /en/
   
         <h2>{{ site.data.translations['recentPosts'][page.lang] }}</h2>
         <div class="blogposts">
-            {% for post in site.categories.blog limit:4 %}
+          {% assign posts = site.categories.blog | where:"lang", page.lang %}
+            {% for post in posts limit:4 %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">
                   <div class="date">

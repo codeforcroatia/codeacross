@@ -1,8 +1,8 @@
 ---
 layout: "page"
-title: "O nama"
-caption: "saznaj sve"
-subtitle: "Mi smo tehnologisti koji koriste svoje znanje za dobrobit zajednice i sugrađana."
+title: "About"
+caption: "learn more"
+subtitle: "We're are national alliance of community organizers, developers, and designers that are putting technology to work in service of our local communities."
 identifier: "about"
 lang: en
 icon: "code"
@@ -11,36 +11,51 @@ permalink: "/about/"
 navigation: "visible"
 ---
 
-## Organizator
+## Organizer
 
-Code for Croatia je ekspertna skupina za uključenost građana u lokalne aktivnosti; nacionalna mreža građanski orijentiranih volontera, koji svojim vještinama doprinose u korištenju interneta kao platforme za javne službe, državnu upravu i građanske usluge. Programiraj za Hrvatsku povezuje developere, dizajnere, aktiviste, gradske inicijatore, organizatore i pokretače ideja koji volontiraju u suradnji s gradskim vlastima i gradskim organizacijama da vlasti usvoje otvorene internetske tehnologije
+Code for Croatia is a non-government initiative that brings together citizens, designers, developers and young entrepreneurs to build awsome things. Our goal is to increase the interactivity of cities, to encourage a better response from cities and create meaningful change through technology.
 
-Programiraj za Hrvatsku je inicijativa za uključenost građana u lokalne aktivnosti; nacionalna mreža građanski orijentiranih volontera, koji svojim vještinama doprinose u korištenju interneta kao platforme za javne službe, državnu upravu i građanske usluge. Programiraj za Hrvatsku udružuje građane, dizajnere, developere i mlade poduzetnike da grade potrebne stvari za dobrobit svoje zajednice i sugrađana. Naš cilj je povećati interaktivnost gradova, potaknuti bolji odaziv gradova i kreirati smislenu promjenu kroz tehnologiju. Inicijativa je osnovana 2014. godine radi promicanja otvorenih tehnologija u službi građana te povećanje transparentnosti javne uprave u svrhu poboljšanja civilnog društva.
+Code for Croatia is a non-profit group that envisions a government by the people, for the people, that works in the 21st century. We're are national alliance of community organizers, developers, and designers that are putting technology to work in service of our local communities. We believe that government can work, for the people, by the people, in the digital age, if we all help.
+
+Our programs change how we participate in governance by:
+
+* Connecting citizens and governments to design better services,
+* Encouraging low-risk settings for innovation; and,
+* Supporting a competitive civic tech marketplace.
 
 ## Open Data Day
 
-{{ site.title }} je vikend građanskih inovacija koji se krajem zime događa istovremeno u brojnim gradovima diljem svijeta, najčešće kroz tri dana uoči vikenda. Tijekom vikenda, slavimo i globalni Dan otvorenih podataka!
+Open Data Day is an annual celebration of open data all over the world. For the ninth time in history, groups from around the world will create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
 
-{{ site.title }}, {{ site.location }} je moguć uz volonterski angažman i s mnogo ljubavi {{ site.organizers }}.
+All outputs are open for everyone to use and re-use.
 
-## Civilno hakiranje
+{{ site.data.translations['title'][page.lang] }}, {{ site.data.translations['location'][page.lang] }} is made possible with volunteer work and with lots of love by great {{ site.data.translations['organizers'][page.lang] }}.
 
-Nasuprot onom što sada mislite, "civilni hakeri" nisu vrsta hakera kojima je svrha činiti štetu - upravo suprotno. Civilni hakeri su tehnologisti, aktivisti, dizajneri, poduzetnici, inženjeri - svi - koji su voljni surađivati s ostalima u stvaranju, građenju i inovaciji u izazovima njihovog susjedstva, gradova, općina, županija i države.
-Natjecanja za aplikacije i druge vrste manifestacija civilnog hakiranja pomažu u podupiranju razvoja velikih (i rastućih) zajednica koje se sada mogu okupiti i bolje surađivati. Rješenja do kojih te skupine dolaze sve su snažnija i mislim da se na njih s pravom gleda kao na dio odgovora na probleme s kojima se vlada suočava pri korištenju tehnologija i u efikasnom obavljanju posla.
+## Civic hacking
 
-## Principi za vlast 21. stoljeća
+What comes to mind when you think about civic hacking? For many, we associate the idea of hacking with people skimming personal information, breaking into websites, or revealing government secrets.
 
-Od raznih opcija koje se iznose u posljednjih nekoliko godina s ciljem poboljšanja načina na koji vlada primjenjuje tehnologiju, smatram da postoje tri osnovne teme koje možemo identificirati:
+However, we like to think of the term in a much more positive context—a civic hacker is someone who uses a minimum of resources and a maximum of brainpower and ingenuity to build, repair, or enhance something in their community. The civic hackers that participate in their respecive local Brigade groups are technologists, civil servants, designers, entrepreneurs, engineers—anybody who is willing to collaborate with others as they address challenges relevant to our neighborhoods, our cities, our states, and our country.
 
-* Reforma vladinog procesa nabave (jer se odnosi na akviziciju IT opreme).
-* Izgradnja unutrašnje sposobnosti vlade da bolje upravlja IT projektima (osobito onim većim projektima).
-* Postavljanje API-ja i puštanje otvorenih podataka kako bi se stvorila platforma na kojoj treće strane mogu razvijati nove aplikacije i usluge (“vlada kao platforma”).
+## Principles for 21st century government
+
+Over the last few years, the combination of agile and lean ways of working with digital technology and the internet have allowed businesses to serve people’s needs better than ever before. When people interact with their government though, it’s clear that their expectations aren’t being met.
+
+Part of our work at Code for Croatia is to make building digital government easy to understand and easy to copy.
+
+We believe these seven principles help governments understand the values required to build digital government. They are critical for governments of any size or structure to deliver more effective, efficient, and inclusive services to their community. We’ve seen their importance over the last years, in big cities big and small cities across Croatia, and in conversation with those around the world who have been transforming government.
+
+We call these principles because it is only when governments agree to, follow, and adopt them at every level, that governments genuinely change and improve the way they work. Together, they provide a clear direction that can then be acted upon.
+
+* Redesign public procurmeent processes (especially those for aquisition of IT equipmment, tools and software).
+* Focus on what government can do from inside to better manage IT projects.
+* Make data easy to find and use via API and by opening the data creating a platform for new 3rd party services and applications leading to "government as a platform" solution.
 
 ## Press
 
 {{ site.contact }}
 
-## Kako ti možeš pomoći
+## How you can help
 
 1. Pomozi nam volontiranjem na Open Data Day konferenciji i vikendu.
 2. Pridonesi pisanjem sadržaja za Open data Day Hrvatska službene stranice. Potraži link za uređivanje u ponožju stranice. 
@@ -49,4 +64,4 @@ Od raznih opcija koje se iznose u posljednjih nekoliko godina s ciljem poboljša
 
 ## Code of Conduct
 
-Pročitaj službeni [Code for Croatia Kodeks ponašanja](https://github.com/codeforcroatia/codeofconduct) na Githubu.
+Read official Code for Croatia [Code of Conduct](https://github.com/codeforcroatia/codeofconduct) at Github.

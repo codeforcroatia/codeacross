@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Novosti
 caption: svježe &amp; vruće
 subtitle: Izdvojene vijesti!
 identifier: "blog"
@@ -14,7 +14,8 @@ navigation: visible
         <h2>{{ site.data.translations['blogTitle'][page.lang] }}</h2>
         <p>{{ site.data.translations['blogInvitation'][page.lang] }}
         <div class="blogposts">
-            {% for post in site.categories.blog %}
+          {% assign news = site.categories.blog | where:"lang", page.lang %}
+            {% for post in news %}
               <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="preview" style="background:{{ post.background }}">
                   <div class="date">

@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "O nama"
+title: "Info"
 caption: "saznaj sve"
 subtitle: "Mi smo tehnologisti koji koriste svoje znanje za dobrobit zajednice i sugrađana."
 identifier: "about"
@@ -13,15 +13,22 @@ navigation: "visible"
 
 ## Organizator
 
-Code for Croatia je ekspertna skupina za uključenost građana u lokalne aktivnosti; nacionalna mreža građanski orijentiranih volontera, koji svojim vještinama doprinose u korištenju interneta kao platforme za javne službe, državnu upravu i građanske usluge. Programiraj za Hrvatsku povezuje developere, dizajnere, aktiviste, gradske inicijatore, organizatore i pokretače ideja koji volontiraju u suradnji s gradskim vlastima i gradskim organizacijama da vlasti usvoje otvorene internetske tehnologije
+Programiraj za Hrvatsku je nacionalna mreža građanski orijentiranih volontera, koji svojim vještinama doprinose u korištenju interneta kao platforme za javne službe, državnu upravu i građanske usluge. Programiraj za Hrvatsku povezuje developere, dizajnere, aktiviste, gradske inicijatore, organizatore i pokretače ideja koji volontiraju u suradnji s gradskim vlastima i gradskim organizacijama da vlasti usvoje otvorene internetske tehnologije
 
 Programiraj za Hrvatsku je inicijativa za uključenost građana u lokalne aktivnosti; nacionalna mreža građanski orijentiranih volontera, koji svojim vještinama doprinose u korištenju interneta kao platforme za javne službe, državnu upravu i građanske usluge. Programiraj za Hrvatsku udružuje građane, dizajnere, developere i mlade poduzetnike da grade potrebne stvari za dobrobit svoje zajednice i sugrađana. Naš cilj je povećati interaktivnost gradova, potaknuti bolji odaziv gradova i kreirati smislenu promjenu kroz tehnologiju. Inicijativa je osnovana 2014. godine radi promicanja otvorenih tehnologija u službi građana te povećanje transparentnosti javne uprave u svrhu poboljšanja civilnog društva.
 
-## Open Data Day
+Naš cilj je izrada i održavanje lokalnih primjera zajedničkih ciljeva i strateških ishoda:
 
-{{ site.title }} je vikend građanskih inovacija koji se krajem zime događa istovremeno u brojnim gradovima diljem svijeta, najčešće kroz tri dana uoči vikenda. Tijekom vikenda, slavimo i globalni Dan otvorenih podataka!
+* Javne službe i državna uprava koriste tehnologiju efikasnije,
+* Građani i zajednica rješavaju civilne probleme,
+* Gradovi zajedno surađuju za bolje rezultate, i,
+* Građanske aplikacije su građene na povezanim, otvorenim podacima.
 
-{{ site.title }}, {{ site.location }} je moguć uz volonterski angažman i s mnogo ljubavi {{ site.organizers }}.
+## Dan otvorenih podataka
+
+Dan otvorenih podataka je vikend građanskih inovacija koji se krajem zime događa istovremeno u brojnim gradovima diljem svijeta, najčešće kroz tri dana uoči vikenda. Tijekom vikenda, slavimo i globalni Dan otvorenih podataka!
+
+{{ site.data.translations['title'][page.lang] }}, {{ site.data.translations['location'][page.lang] }} je moguć uz volonterski angažman i s mnogo ljubavi {{ site.data.translations['organizers'][page.lang] }}.
 
 ## Civilno hakiranje
 
@@ -49,4 +56,4 @@ Od raznih opcija koje se iznose u posljednjih nekoliko godina s ciljem poboljša
 
 ## Code of Conduct
 
-Pročitaj službeni [Code for Croatia Kodeks ponašanja](https://github.com/codeforcroatia/codeofconduct) na Githubu.
+Pročitaj službeni Programiraj za Hrvatsku [Kodeks ponašanja](https://github.com/codeforcroatia/codeofconduct) na Githubu.
