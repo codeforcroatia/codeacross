@@ -1,10 +1,10 @@
 ---
 categories: blog
 layout: blog
-title: Fotogallery CodeAcross and OpenDataDay 2015
-subtitle: "Check photo gallery from CodeAcross and OpenDataDay, Zagrebu 20th - 22nd February 2015."
+title: Fotogalerija CodeAcross i OpenDataDay 2015
+subtitle: "Pogledajte galeriju fotografija s CodeAcross i OpenDataDay održanog u Zagrebu 20. - 22. veljače 2015."
 identifier: "codeacross-opendataday-2015-fotografije"
-lang: en
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

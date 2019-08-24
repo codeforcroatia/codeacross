@@ -1,15 +1,16 @@
 ---
 categories: blog
 layout: blog
-title: Ishodi manifestacije CodeAcross i OpenDataDay 2015
-subtitle: "Rezultati hackathona održanog u Zagrebu 20. i 21. veljače 2015."
-permalink: "/codeacross-opendataday-2015-outcomes/"
+title: Outcomes from CodeAcross and OpenDataDay 2015
+subtitle: "Hackathon outcomes 21st and i 22nd February 2015."
+identifier: "codeacross-opendataday-2015-rezultati"
+lang: en
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"
 published: true
 ---
 
-Pogledaj ishode hackathona na Code for Croatia:
+See outcomes from CodeAcross and OpenDataDay 2015 at Code for Croatia:
 
-# [Ishodi hackathona »](http://codeforcroatia.org/projects?tag=event.code_across_2015)
+# [Hackathon projects »](http://codeforcroatia.org/projects?tag=event.code_across_2015)

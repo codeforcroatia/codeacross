@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Imamo pravo znati i moraju nam odgovoriti
 subtitle: "Ove godine slavi tri godine od kako je portal osnovan s ciljem da premosti uobičajenu birokratsku proceduru i građanima omogući zakonom zajamčen otvoren pristup informacijama"
-permalink: "/imamopravoznati-3-rodendan/"
+identifier: "imamopravoznati-3-rodendan"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

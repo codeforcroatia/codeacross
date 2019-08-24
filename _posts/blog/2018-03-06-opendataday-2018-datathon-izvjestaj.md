@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Podaci koji nedostaju i nakon pet godina
 subtitle: "Peti Open Data Day bio je, moglo se zaključiti u nedjelju nakon vikend datathona, jedan od najproduktivnijih do sada"
-permalink: "/opendataday-2018-datathon-izvjestaj/"
+identifier: "opendataday-2018-datathon-izvjestaj"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

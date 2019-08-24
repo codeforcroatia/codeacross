@@ -3,7 +3,8 @@ categories: blog
 layout: blog
 title: Hackathon o otvorenim podacima
 subtitle: "Hackathon povodom međunarodnog Dana otvorenih podataka u sklopu panel diskusije Više od transparentnosti"
-permalink: "/codeacross-2014-hackathon/"
+identifier: "codeacross-2014-hackathon"
+lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"

@@ -14,7 +14,7 @@ layout: "meetup"
 categories: "meetup"
 title: "Google IO Extended"
 date: "2014-06-25 11:00:00"
-permalink: "/io-extended-2014/"
+permalink: "/io-extended-2014/" <!-- optional -->
 identifier: "unique-id-per-content-for-all-languages"
 lang: en
 host: "Jon Moss"
