@@ -39,9 +39,9 @@ $media-mobile-max: 767px !default;
 $media-tablet-min: 768px !default;
 $media-tablet-max: 1024px !default;
 $media-desktop-min: 1025px !default;
-// 
+//
 // @import "grid/unsemantic-ie-snap.sass";
-// 
+//
 // @media screen {
 //   @import "grid/unsemantic-grid-base-tablet.sass";
 // }
@@ -107,7 +107,7 @@ input, div.gm-iw div, div.gm-style-mtc div, div.gm-style-cc div {
 
 img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 hr {
@@ -401,7 +401,7 @@ nav {
     .date {
       float: none;
       margin: 20px auto 20px auto;
-    }    
+    }
   }
 }
 
@@ -421,7 +421,7 @@ nav {
 footer {
   background: $ltgray;
   /*
-  min-height: 300px; */ 
+  min-height: 300px; */
 }
 
 // Navigation
@@ -444,7 +444,7 @@ footer {
   text-align: center;
   small {
     font-size: 30px;
-    line-height: 45px;
+    line-height: 28px;
     display: block;
   }
 }
@@ -499,7 +499,7 @@ footer {
     }
   }
   nav a {
-    margin-right: 0px; 
+    margin-right: 0px;
     div {
       // display: none;
     }

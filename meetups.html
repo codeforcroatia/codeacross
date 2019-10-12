@@ -23,6 +23,7 @@ navigation: visible
                   <div class="date">
                       <small>{{ post.date | date: "%b" }}</small>
                       {{ post.date | date: "%-d" }}
+                      <small>{{ post.date | date: "%Y" }}</small>
                   </div>
                 </div>
                 <h3>{{ post.title }}</h3>
@@ -46,6 +47,7 @@ navigation: visible
                   <div class="date">
                       <small>{{ post.date | date: "%b" }}</small>
                       {{ post.date | date: "%-d" }}
+                      <small>{{ post.date | date: "%Y" }}</small>
                   </div>
                 </div>
                 <h3>{{ post.title }}</h3>
@@ -55,5 +57,5 @@ navigation: visible
               {% endif %}
             {% endfor %}
           </div>
-                    
+
           <p>{{ site.data.translations['forDebug'][page.lang] }} {{ site.time | date: '%s' }} {{ site.data.translations['unixTime'][page.lang] }}.</p>

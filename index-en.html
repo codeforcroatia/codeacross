@@ -33,6 +33,7 @@ permalink: /en/
                   <div class="date">
                       <small>{{ post.date | date: "%b" }}</small>
                       {{ post.date | date: "%-d" }}
+                      <small>{{ post.date | date: "%Y" }}</small>
                   </div>
                 </div>
                 <h3>{{ post.title }}</h3>
@@ -56,6 +57,7 @@ permalink: /en/
                   <div class="date">
                       <small>{{ post.date | date: "%b" }}</small>
                       {{ post.date | date: "%-d" }}
+                      <small>{{ post.date | date: "%Y" }}</small>
                   </div>
                 </div>
                 <h3>{{ post.title }}</h3>
@@ -65,7 +67,7 @@ permalink: /en/
               {% endif %}
             {% endfor %}
           </div>
-  
+
         <h2>{{ site.data.translations['recentPosts'][page.lang] }}</h2>
         <div class="blogposts">
           {% assign posts = site.categories.blog | where:"lang", page.lang %}
@@ -75,6 +77,7 @@ permalink: /en/
                   <div class="date">
                       <small>{{ post.date | date: "%b" }}</small>
                       {{ post.date | date: "%-d" }}
+                      <small>{{ post.date | date: "%Y" }}</small>
                   </div>
                 </div>
                 <h3>{{ post.title }}</h3>
