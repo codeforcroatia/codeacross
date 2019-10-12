@@ -4,7 +4,7 @@ location: Zagreb, Hrvatska
 description: "Open Data Day je konferencija o otvorenim podacima i vikend građanskih inovacija."
 baseurl: ""
 #url: "http://odd.codeforcroatia.org"
-url: "http://odd.codeforcroatia.org"
+url: "https://odd.codeforcroatia.org"
 #haxicons - check icon codes at https://icomoon.io/#preview-free
 icon: "location"
 invitation: "Dođi i kreiraj nešto divno, nauči programirati, ili donesi svoje postojeće projekte. Bez obzira na razinu vještina, svatko je dobrodošao!"
@@ -37,11 +37,11 @@ ifttt:
 
 # Local Meetup Links
 meetup1: "Code for Croatia"
-meetup1-url: "http://codeforcroatia.org/"
+meetup1-url: "https://codeforcroatia.org/"
 meetup2: "Code for Croatia meetups"
-meetup2-url: "http://www.meetup.com/CodeForCroatia"
+meetup2-url: "https://www.meetup.com/CodeForCroatia"
 meetup3: "GONG"
-meetup3-url: "http://www.gong.hr/"
+meetup3-url: "https://www.gong.hr/"
 meetup4: "Code for Croatia FB događaji"
 meetup4-url: "https://www.facebook.com/programirajzahrvatsku/events/"
 

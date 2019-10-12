@@ -50,10 +50,10 @@ Od raznih opcija koje se iznose u posljednjih nekoliko godina s ciljem poboljša
 ## Kako ti možeš pomoći
 
 1. Pomozi nam volontiranjem na Open Data Day konferenciji i vikendu.
-2. Pridonesi pisanjem sadržaja za Open data Day Hrvatska službene stranice. Potraži link za uređivanje u ponožju stranice. 
+2. Pridonesi pisanjem sadržaja za Open data Day Hrvatska službene stranice. Potraži link za uređivanje u ponožju stranice.
 3. Pomozi unaprijediti službenu stranicu događaja programiranjem novih funkcionalnosti i poboljšanju koda službenih stranica. Pročitaj [readme.md](https://github.com/{{ site.github }}/blob/gh-pages/readme.md) na GitHubu.
 4. Doniraj ili sponzoriraj događanje. Zainteresirani donori i sponzori mogu nam se javiti putem kontakt linka iz podnožja stranice.
 
-## Code of Conduct
+## Kodeks ponašanja
 
 Pročitaj službeni Programiraj za Hrvatsku [Kodeks ponašanja](https://github.com/codeforcroatia/codeofconduct) na Githubu.
