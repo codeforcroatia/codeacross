@@ -27,7 +27,7 @@ Sudjelujte u programu - bilo da želite predstaviti svoj projekt, ideju ili na d
 
 - Otvaranjem registra stvarnih vlasnika tvrtki.
 
-##Vikend datathon 
+## Vikend datathon ##
 
 Nakon konferencije u petak prilika je za suradnju i razmjenu iskustava u radu na konkretnim setovima podataka ili idejama za razvoj novih aplikacija i softverskih rješenja. 
 
