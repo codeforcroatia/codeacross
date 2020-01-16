@@ -38,3 +38,5 @@ Imate set podataka ili konkretan projekt na kojem bi željeli skupiti ekipu - [p
 Javite nam se sa svojim idejama i proširite vijest. 
 
 Više detalja o programu konferencije i setovima podataka koje pripremamo – uskoro!
+
+*Slika u headeru: Datathon - projektni timovi #ODD2019, photo by H.A.*
