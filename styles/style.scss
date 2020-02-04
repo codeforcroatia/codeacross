@@ -67,8 +67,8 @@ $media-desktop-min: 1025px !default;
 // Typography
 @import "global/_type.scss";
 
-// Didact Gothic Font
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+// Lato Font
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext');
 
 // Prettyprint
 @import "global/_prettyprint-monokai.scss";

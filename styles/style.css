@@ -4,7 +4,6 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 @import url(../fonts/icons/style.css);
 html {
   font-family: sans-serif;
@@ -386,7 +385,7 @@ body {
   color: black;
   line-height: 1.5em;
   -webkit-font-smoothing: antialiased;
-  font-family: "Didact Gothic", Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-weight: normal;
   vertical-align: middle; }
 
@@ -1904,7 +1903,7 @@ e(1.6) translateX(-20px);opacity:0}100%{transform:scale(1) translateX(0px);opaci
   border-right: 1px solid rgba(0, 0, 0, 0.45); }
 
 body {
-  font-family: "Didact Gothic", Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5em; }
 
@@ -2038,7 +2037,7 @@ h1, h2, h3, .button-jumbo, .button.btn-large {
   font-weight: bold; }
 
 input, div.gm-iw div, div.gm-style-mtc div, div.gm-style-cc div {
-  font-family: "Didact Gothic", Arial, sans-serif !important; }
+  font-family: "Lato", Arial, sans-serif !important; }
 
 img {
   max-width: 100%;
