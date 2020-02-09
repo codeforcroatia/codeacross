@@ -8,6 +8,7 @@ identifier: "codeacross-2015-konferencija-izvjestaj"
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"
+color: "#fff"
 published: true
 ---
 

@@ -1,0 +1,18 @@
+.btn-primary {
+
+}
+
+.btn-lg {
+  font-size: 1.5em;
+  font-weight: 800;
+  padding: .55em 3em;
+  &.btn-outline-light,
+  &.btn-outline-dark {
+    border-width: 5px;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}

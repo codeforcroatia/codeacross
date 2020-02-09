@@ -1,0 +1,55 @@
+.site-header {
+  background-image: linear-gradient(to right, white, white 50%, #1a1a1a 50%, #1a1a1a);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-logo {
+  color: $black;
+  display: inline-flex;
+  align-items: center;
+  margin: 2em 0;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  .logo {
+    margin-right: 2em;
+  }
+}
+
+.site-title {
+  h1 {
+    font-size: 1.7777777778em;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.35;
+  }
+  .site-tagline {
+    display: block;
+    font-size: .75em;
+  }
+}
+
+.main-nav {
+  align-items: center;
+  display: flex;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    li {
+
+    }
+  }
+  .page-link {
+    color: $white;
+    font-size: 1.2222222222em;
+    padding: 1em;
+    font-weight: 600;
+  }
+}

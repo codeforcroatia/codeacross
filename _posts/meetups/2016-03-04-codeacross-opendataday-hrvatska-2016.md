@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Algebra, Ilica 242, Zagreb"
 link: "http://odd.codeforcroatia.org/2016/"
-background: "url(https://odd.codeforcroatia.org/2016/img/red-overlay.png)"
+background: "#0086FF"
+color: "#fff"
 published: true
 ---
 

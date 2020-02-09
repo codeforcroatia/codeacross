@@ -1,56 +1,55 @@
 <span id="top"></span>
-<div class="cover" style="background:{{ page.background }}">
-  
-  <nav class="site-header" role="navigation">
-    <div class="c">
-      <a href="/" class="logo">
-        <i class="icon-{{ site.icon }}"></i>
-        <div>
-          {{ site.data.translations['title'][page.lang] }}
-          <small>{{ site.data.translations['location'][page.lang] }}</small>
-        </div>
-      </a>
-      <a href="#" onclick="$('nav').toggleClass('expanded')" class="menu-button visible-mobile right">
-        <i class="icon-more"></i>
-      </a>
-      {% assign currentLanguage = page.lang %}
-      {% for page in site.pages %} {% if page.navigation contains 'visible' and page.lang == currentLanguage %}
-        <a class="page-link" onclick="$('nav').toggleClass('expanded')" href="{{ page.url | prepend: site.baseurl }}">
-          <i class="icon-{{ page.icon }}"></i>
-          <div>
-            {{ page.title }}
-            <small>{{ page.caption }}</small>
+<header class="site-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="{{ site.baseurl }}/" class="site-logo">
+          <img src="{{ "/images/cfc-logo.svg" | prepend: site.baseurl }}" alt="Code for Croatia" class="logo">
+          <div class="site-title">
+            <h1>
+              {{ site.data.translations['indexTitle'][page.lang] }}
+              <span class="site-tagline">{{ site.data.translations['indexTagline'][page.lang] }}</span>
+            </h1>
           </div>
         </a>
-      {% endif %} {% endfor %}
+      </div>
+      <nav role="navigation" class="col-md-6 main-nav">
+        <ul>
+          {% assign currentLanguage = page.lang %}
+          {% for page in site.pages %}
+            {% if page.navigation contains 'visible' and page.lang == currentLanguage %}
+              <li>
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+                  {{ page.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
 
-        {% assign posts = site.posts | where:"identifier", page.identifier | sort: 'lang' %}
-        {% for post in posts %}
-        {% if post.lang != page.lang and page.identifier != nil %}
-        <a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="{{post.lang}}" href="{{ post.url | prepend: site.baseurl }}">
-        <i class="icon-earth"></i>
-        <div>
-          {{ site.data.translations['viewIn'][post.lang] }}
-          <small>{{ site.data.languages[post.lang].label }}</small>
-        </div>
-      </a>
-        {% endif %}
-        {% endfor %}
+          {% assign posts = site.posts | where:"identifier", page.identifier | sort: 'lang' %}
+          {% for post in posts %}
+            {% if post.lang != page.lang and page.identifier != nil %}
+              <li>
+                <a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="page-link {{post.lang}}" href="{{ post.url | prepend: site.baseurl }}">
+                  {{ site.data.translations['viewIn'][post.lang] }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
 
-        {% assign contents = site.pages | where:"identifier", page.identifier | sort: 'lang' %}
-        {% for content in contents %}
-        {% if content.lang != page.lang and page.identifier != nil %}
-        <a title="{{ site.data.translations['viewIn'][content.lang] }} {{ site.data.languages[content.lang].label }}" class="{{content.lang}}" href="{{ content.url | prepend: site.baseurl }}">
-        <i class="icon-earth"></i>
-        <div>
-          {{ site.data.translations['viewIn'][content.lang] }}
-          <small>{{ site.data.languages[content.lang].label }}</small>
-        </div>
-      </a>
-        {% endif %}
-        {% endfor %}
+          {% assign contents = site.pages | where:"identifier", page.identifier | sort: 'lang' %}
+          {% for content in contents %}
+            {% if content.lang != page.lang and page.identifier != nil %}
+              <li>
+                <a title="{{ site.data.translations['viewIn'][content.lang] }} {{ site.data.languages[content.lang].label }}" class="page-link {{content.lang}}" href="{{ content.url | prepend: site.baseurl }}">
+                  {{ site.data.languages[content.lang].label }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
 
+        </ul>
+      </nav>
     </div>
-  </nav>
-
-  <!-- COVER PHOTO CONTINUES -->
+  </div>
+</header>

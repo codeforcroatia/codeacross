@@ -1,0 +1,43 @@
+.site-footer {
+  padding: 4em 0;
+  h3 {
+    font-size: 2em;
+    margin: 0 0 .75em;
+  }
+  nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin: 0 0 .25em;
+    }
+    a {
+      color: $black;
+      display: inline-block;
+    }
+  }
+}
+
+.footnote {
+  background: $gray-800;
+  color: $white;
+  padding: 1.5em 0;
+  p {
+    margin: 0;
+  }
+  a {
+    color: inherit;
+    display: inline-block;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: .25em;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
