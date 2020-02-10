@@ -9,6 +9,37 @@
   &-subtitle {
     font-size: 2em;
   }
+  @include media-breakpoint-down(lg) {
+    &-cover {
+      padding: 3em 0 6em;
+      background-size: 95% auto;
+    }
+    &-title {
+      font-size: 2.25em;
+    }
+    &-subtitle {
+      font-size: 1.875em;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    &-title {
+      font-size: 2em;
+    }
+    &-subtitle {
+      font-size: 1.5em;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    &-cover {
+      padding: 2em 0 4em;
+    }
+    &-title {
+      font-size: 1.5em;
+    }
+    &-subtitle {
+      font-size: 1.125em;
+    }
+  }
 }
 
 .sponsors-list {
@@ -39,6 +70,7 @@
 
 .meetup-item {
   display: flex;
+  align-items: flex-start;
   color: inherit;
   text-decoration: none;
   &:hover {
@@ -71,6 +103,39 @@
     }
     p {
       color: $gray-600;
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    &-date {
+      width: 30%;
+      font-size: .9em;
+    }
+    &-info {
+      h3 {
+        font-size: 1.5em;
+      }
+    }
+  }
+  @include media-breakpoint-down(md) {
+    &-date {
+      width: 25%;
+      font-size: .8em;
+    }
+    &-info {
+      h3 {
+        font-size: 1.25em;
+      }
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    &-date {
+      font-size: .5em;
+    }
+    &-info {
+      h3 {
+        font-size: 1.125em;
+        margin-top: 0;
+      }
     }
   }
 }

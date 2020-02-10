@@ -18,12 +18,29 @@
       display: inline-block;
     }
   }
+  @include media-breakpoint-down(lg) {
+    h3 {
+      font-size: 1.875em;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+    nav {
+      margin: 0 0 3em;
+    }
+  }
 }
 
 .footnote {
   background: $gray-800;
   color: $white;
-  padding: 1.5em 0;
+  padding: 1em 0;
+  line-height: 2;
   p {
     margin: 0;
   }
@@ -31,7 +48,6 @@
     color: inherit;
     display: inline-block;
     border-bottom: 1px solid currentColor;
-    padding-bottom: .25em;
     &:hover {
       text-decoration: none;
     }
@@ -39,5 +55,10 @@
   img {
     display: inline-block;
     vertical-align: middle;
+  }
+  @include media-breakpoint-down(xs) {
+    p {
+      font-size: .875em;
+    }
   }
 }

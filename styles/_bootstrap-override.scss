@@ -1,7 +1,3 @@
-.btn-primary {
-
-}
-
 .btn-lg {
   font-size: 1.5em;
   font-weight: 800;
@@ -10,9 +6,48 @@
   &.btn-outline-dark {
     border-width: 5px;
   }
+  @include media-breakpoint-down(lg) {
+    padding: .5em 2em;
+  }
+  @include media-breakpoint-down(md) {
+    font-size: 1.25em;
+  }
+  @include media-breakpoint-down(xs) {
+    font-size: 1.125em;
+    padding: .5em 1em;
+  }
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container-half {
+  width: 100%;
+  [class^='col-']:nth-child(odd) > & {
+    margin-left: auto;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: ((720px - $grid-gutter-width) / 2) - ($grid-gutter-width / 2);
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: ((960px - $grid-gutter-width) / 2) - ($grid-gutter-width / 2);
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: ((1200px - $grid-gutter-width) / 2) - ($grid-gutter-width / 2);
+  }
+  @include media-breakpoint-down(sm) {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    padding-left: $grid-gutter-width / 2;
+    padding-right: $grid-gutter-width / 2;
+  }
 }

@@ -1,8 +1,8 @@
 <span id="top"></span>
 <header class="site-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container-half">
         <a href="{{ site.baseurl }}/" class="site-logo">
           <img src="{{ "/images/cfc-logo.svg" | prepend: site.baseurl }}" alt="Code for Croatia" class="logo">
           <div class="site-title">
@@ -13,7 +13,9 @@
           </div>
         </a>
       </div>
-      <nav role="navigation" class="col-md-6 main-nav">
+    </div>
+    <nav role="navigation" class="col-md-6 main-nav">
+      <div class="container-half">
         <ul>
           {% assign currentLanguage = page.lang %}
           {% for page in site.pages %}
@@ -49,7 +51,7 @@
           {% endfor %}
 
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </div>
 </header>
