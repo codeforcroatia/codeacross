@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "FER, Unska 3, Zagreb"
 link: "http://odd.codeforcroatia.org/2016/"
-background: "url(https://odd.codeforcroatia.org/2016/img/blue-overlay.png)"
+background: "#9B20DC"
+color: "#fff"
 published: true
 ---
 

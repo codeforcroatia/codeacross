@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> Open Zagreb <i class='icon-ampersand'></i> OGP <i class='icon-ampersand'></i> GONG"
 address: "Srce, Josipa Marohnića 5, Zagreb"
 link: "http://odd.codeforcroatia.org/2015/"
-background: "url(https://odd.codeforcroatia.org/2015/img/red-overlay.png)"
+background: "#0086FF"
+color: "#fff"
 published: true
 ---
 

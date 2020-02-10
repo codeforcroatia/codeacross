@@ -8,6 +8,7 @@ lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "rgb(119, 40, 23)"
+color: "#fff"
 published: true
 ---
 
@@ -19,7 +20,7 @@ published: true
 
 &nbsp;
 
-<iframe src="//player.vimeo.com/video/90989402" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+<iframe src="//player.vimeo.com/video/90989402" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 &nbsp;
 

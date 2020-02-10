@@ -1,0 +1,141 @@
+.full-page {
+  &-cover {
+    background: $orange url('../images/pixels-event-bg.svg') no-repeat center bottom 3em;
+    padding: 3.5em 0 7em;
+  }
+  &-title {
+    font-size: 2.5em;
+  }
+  &-subtitle {
+    font-size: 2em;
+  }
+  @include media-breakpoint-down(lg) {
+    &-cover {
+      padding: 3em 0 6em;
+      background-size: 95% auto;
+    }
+    &-title {
+      font-size: 2.25em;
+    }
+    &-subtitle {
+      font-size: 1.875em;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    &-title {
+      font-size: 2em;
+    }
+    &-subtitle {
+      font-size: 1.5em;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    &-cover {
+      padding: 2em 0 4em;
+    }
+    &-title {
+      font-size: 1.5em;
+    }
+    &-subtitle {
+      font-size: 1.125em;
+    }
+  }
+}
+
+.sponsors-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  li {
+    margin: 1em 2em;
+  }
+}
+
+.post-content {
+  padding: 4em 0;
+}
+
+.meetups-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0 0 1.5em;
+  }
+}
+
+.meetup-item {
+  display: flex;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &-date {
+    width: 16.6666666667em;
+    margin: 0 1.125em 0 0;
+    text-align: center;
+    padding: 1.125em;
+    line-height: 1;
+    span,
+    strong {
+      display: block;
+    }
+    span {
+      font-size: 1.6666666667em;
+    }
+    strong {
+      font-size: 3.3333333333em;
+      font-weight: 400;
+    }
+  }
+  &-info {
+    flex: 1;
+    h3 {
+      font-size: 1.7777777778em;
+      margin: .25em 0 .625em;
+      font-weight: 400;
+    }
+    p {
+      color: $gray-600;
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    &-date {
+      width: 30%;
+      font-size: .9em;
+    }
+    &-info {
+      h3 {
+        font-size: 1.5em;
+      }
+    }
+  }
+  @include media-breakpoint-down(md) {
+    &-date {
+      width: 25%;
+      font-size: .8em;
+    }
+    &-info {
+      h3 {
+        font-size: 1.25em;
+      }
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    &-date {
+      font-size: .5em;
+    }
+    &-info {
+      h3 {
+        font-size: 1.125em;
+        margin-top: 0;
+      }
+    }
+  }
+}

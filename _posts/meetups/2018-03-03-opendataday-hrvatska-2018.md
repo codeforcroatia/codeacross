@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Srce, Josipa Marohnića 5, Zagreb"
 link: "http://odd.codeforcroatia.org/2018/"
-background: "url(https://odd.codeforcroatia.org/2018/img/blue-overlay.png)"
+background: "#9B20DC"
+color: "#fff"
 published: true
 ---
 

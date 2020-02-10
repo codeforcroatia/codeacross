@@ -8,6 +8,7 @@ lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
 background: "url(https://odd.codeforcroatia.org/2019/img/event/53212877_2268564933412518_5172178005014872064_o.jpg)"
+color: "#333"
 published: true
 ---
 
@@ -17,25 +18,25 @@ Ako ste znatiželjni, istraživači, aktivisti, novinari, programeri, javni slu�
 
 Sudjelujte u programu - bilo da želite predstaviti svoj projekt, ideju ili na drugi način doprinijeti raspravama prijavite svoj prijedlog putem [kontakta](https://codeforcroatia.org/contact).
 
-**Prijave za gostovanje na konferenciji su otvorene do 1. veljače 2020.** a ovogodišnje izdanje bavit će se: 
+**Prijave za gostovanje na konferenciji su otvorene do 1. veljače 2020.** a ovogodišnje izdanje bavit će se:
 
-- Transparentnošću troškova i izvora financiranja političkih kampanja, kao i pitanjem regulacije političkog oglašavanja na društvenim mrežama. 
+- Transparentnošću troškova i izvora financiranja političkih kampanja, kao i pitanjem regulacije političkog oglašavanja na društvenim mrežama.
 
 - Zlouporabom GDPR-a za skrivanje podataka koji bi trebali biti javni, poput imovinskih kartica sudaca ili hrvatskih zastupnika u institucijama EU.   
 
-- Europskim temama sa zatvorenih sjednica Vlade. 
+- Europskim temama sa zatvorenih sjednica Vlade.
 
 - Otvaranjem registra stvarnih vlasnika tvrtki.
 
 ## Vikend datathon ##
 
-Nakon konferencije u petak prilika je za suradnju i razmjenu iskustava u radu na konkretnim setovima podataka ili idejama za razvoj novih aplikacija i softverskih rješenja. 
+Nakon konferencije u petak prilika je za suradnju i razmjenu iskustava u radu na konkretnim setovima podataka ili idejama za razvoj novih aplikacija i softverskih rješenja.
 
 Imate set podataka ili konkretan projekt na kojem bi željeli skupiti ekipu - [pišite nam](https://codeforcroatia.org/contact/).
 
 **Prijave za datathon ideje su otvorene do 15. veljače 2020.**
 
-Javite nam se sa svojim idejama i proširite vijest. 
+Javite nam se sa svojim idejama i proširite vijest.
 
 Više detalja o programu konferencije i setovima podataka koje pripremamo – uskoro!
 

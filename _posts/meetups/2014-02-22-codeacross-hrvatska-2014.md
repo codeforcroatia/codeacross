@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> Rational International <i class='icon-ampersand'></i> GONG"
 address: "Ilica 15, Zagreb"
 link: "http://odd.codeforcroatia.org/2014/"
-background: "url(https://odd.codeforcroatia.org/2014/img/blue-overlay.png)"
+background: "#9B20DC"
+color: "#fff"
 published: true
 ---
 

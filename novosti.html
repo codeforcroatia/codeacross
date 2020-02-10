@@ -11,24 +11,24 @@ permalink: /novosti/
 navigation: visible
 ---
 
-        <h2>{{ site.data.translations['blogTitle'][page.lang] }}</h2>
-        <p>{{ site.data.translations['blogInvitation'][page.lang] }}
-        <div class="blogposts">
-          {% assign news = site.categories.blog | where:"lang", page.lang %}
-            {% for post in news %}
-              <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
-                <div class="preview" style="background:{{ post.background }}">
-                  <div class="date">
-                      <small>{{ post.date | date: "%B" }}</small>
-                      {{ post.date | date: "%-d" }}
-                      <small>{{ post.date | date: "%Y" }}</small>
-                  </div>
-                </div>
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.subtitle }}</p>
-              </a>
-              <br>
-            {% endfor %}
-          </div>
+<h2>{{ site.data.translations['blogTitle'][page.lang] }}</h2>
+<p>{{ site.data.translations['blogInvitation'][page.lang] }}
 
-          <p>{{ site.data.translations['forDebug'][page.lang] }} {{ site.time | date: '%s' }} {{ site.data.translations['unixTime'][page.lang] }}.</p>
+<ul class="meetups-list">
+  {% assign news = site.categories.blog | where:"lang", page.lang %}
+  {% for post in news %}
+    <li>
+      <a class="meetup-item" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="meetup-item-date" style="background:{{ post.background }}; color:{{ post.color }}">
+          <span>{{ post.date | date: "%B" }}</span>
+          <strong>{{ post.date | date: "%-d" }}</strong>
+          <span>{{ post.date | date: "%Y" }}</span>
+        </div>
+        <div class="meetup-item-info">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.subtitle }}</p>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

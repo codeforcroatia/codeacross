@@ -17,6 +17,8 @@ title:
 location:
   en: "Zagreb, Croatia"
   hr: "Zagreb, Hrvatska"
+nextMeetupInfo:
+  hr: "Dani otvorenih podataka 2020 će se održati 6.&nbsp;/&nbsp;7.&nbsp;/&nbsp;8. ožujka 2020."
 description:
   en: "Open Data Day is a open data conference and weekend dedicated to civic hacking."
   hr: "Dan otvorenih podataka je konferencija o otvorenim podacima i vikend građanskih inovacija."
@@ -25,10 +27,10 @@ invitation:
   hr: "Dođi i kreiraj nešto divno, nauči programirati, ili donesi svoje postojeće projekte. Bez obzira na razinu vještina, svatko je dobrodošao!"
 indexTitle:
   en: "Open Data Day Croatia"
-  hr: "Open Data Day Hrvatska"
+  hr: "Dan otvorenih podataka"
 indexTagline:
-  en: "Civic hacking weekend."
-  hr: "Vikend građanskih inovacija."
+  en: "Zagreb, Croatia"
+  hr: "Zagreb, Hrvatska"
 next:
   en: "Next"
   hr: "Sljedeći"
@@ -40,7 +42,7 @@ recentPosts:
   hr: "Zadnji postovi"
 signUpAnnouncements:
   en: "Sign up for Open Data Day announcements"
-  hr: "Prijavi se za Open Data Day obavijesti"
+  hr: "Prijavi se za obavijesti o Danima otvorenih podataka"
 signUpVia:
   en: "Sign up via"
   hr: "Pretplati se putem"

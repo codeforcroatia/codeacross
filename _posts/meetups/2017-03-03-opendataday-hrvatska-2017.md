@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Srce, Josipa Marohnića 5, Zagreb"
 link: "http://odd.codeforcroatia.org/2017/"
-background: "url(https://odd.codeforcroatia.org/2017/img/red-overlay.png)"
+background: "#0086FF"
+color: "#fff"
 published: true
 ---
 
@@ -22,7 +23,7 @@ Pridruži nam se u Srcu – 3. - 5. ožujka.
 
 # Okrugli stol
 
-Okrugli stol o ponovnoj uporabi informacija i primjeni u Hrvatskoj. 
+Okrugli stol o ponovnoj uporabi informacija i primjeni u Hrvatskoj.
 
 Za detalje posjetite stranicu:
 

@@ -10,7 +10,8 @@ lang: en
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "HUB385, Petračićeva ul. 6, Zagreb"
 link: "http://odd.codeforcroatia.org/2019/"
-background: "url(https://odd.codeforcroatia.org/2019/img/red-overlay.png)"
+background: "#0086FF"
+color: "#fff"
 published: true
 ---
 
@@ -22,7 +23,7 @@ Pridruži nam se u HUB385 1. - 3. ožujka.
 
 # Panel rasprava
 
-Zbog čega je tako teško dobiti otvorene podatke od hrvatskih javnih tijela, zbog čega ih najčešće žele posebno naplatiti, hoće li Politika otvorenih podataka to promijeniti ili Uredba o troškovima ponovne uporabe informacija najavljuje da ćemo morati plaćati otvoreni pristup javnim podacima? 
+Zbog čega je tako teško dobiti otvorene podatke od hrvatskih javnih tijela, zbog čega ih najčešće žele posebno naplatiti, hoće li Politika otvorenih podataka to promijeniti ili Uredba o troškovima ponovne uporabe informacija najavljuje da ćemo morati plaćati otvoreni pristup javnim podacima?
 
 Za detalje posjetite stranicu:
 

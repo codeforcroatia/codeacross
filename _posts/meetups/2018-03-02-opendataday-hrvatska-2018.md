@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Srce, Josipa Marohnića 5, Zagreb"
 link: "http://odd.codeforcroatia.org/2018/"
-background: "url(https://odd.codeforcroatia.org/2018/img/red-overlay.png)"
+background: "#0086FF"
+color: "#fff"
 published: true
 ---
 
@@ -22,7 +23,7 @@ Pridruži nam se u Srcu 2. - 4. ožujka.
 
 # Panel rasprava
 
-Pet godina otvorenih podataka u Hrvatskoj: dosadašnja praksa i izazovi koji stoje na putu otvaranja podataka u punom opsegu zajamčenom Zakonom i Direktivom o ponovnoj uporabi informacija javnog sektora. 
+Pet godina otvorenih podataka u Hrvatskoj: dosadašnja praksa i izazovi koji stoje na putu otvaranja podataka u punom opsegu zajamčenom Zakonom i Direktivom o ponovnoj uporabi informacija javnog sektora.
 
 Za detalje posjetite stranicu:
 
