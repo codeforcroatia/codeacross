@@ -1,0 +1,124 @@
+.site-logo {
+  color: $black;
+  display: inline-flex;
+  align-items: center;
+  margin: 2em 0;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  .logo {
+    margin-right: 2em;
+  }
+  @include media-breakpoint-down(lg) {
+    margin: 1em 0;
+    .logo {
+      width: 6.6666666667em;
+      margin-right: 1.5em;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .logo {
+      width: 5em;
+      margin-right: 1em;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    display: flex;
+    justify-content: center;
+    .logo {
+      width: 6em;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    .logo {
+      width: 4em;
+      margin-right: .5em;
+    }
+  }
+}
+
+.site-title {
+  h1 {
+    font-size: 1.7777777778em;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.35;
+  }
+  .site-tagline {
+    display: block;
+    font-size: .75em;
+  }
+  @include media-breakpoint-down(lg) {
+    h1 {
+      font-size: 1.45em;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    h1 {
+      font-size: 1.125em;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    h1 {
+      font-size: 1.45em;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    h1 {
+      font-size: 1em;
+    }
+  }
+}
+
+.main-nav {
+  align-items: center;
+  display: flex;
+  background: #1a1a1a;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .page-link {
+    color: $white;
+    font-size: 1.2222222222em;
+    padding: 1em;
+    font-weight: 600;
+    display: inline-block;
+  }
+  @include media-breakpoint-down(lg) {
+    .page-link {
+      font-size: 1.125em;
+      padding: .5em;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .page-link {
+      font-size: 1em;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    .page-link {
+      font-size: 1.125em;
+      padding: 1.5em 1em;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        width: 50%;
+        text-align: center;
+      }
+    }
+    .page-link {
+      padding: .75em;
+    }
+  }
+}

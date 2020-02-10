@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> HrOpen"
 address: "Srce, Josipa Marohnića 5, Zagreb"
 link: "http://odd.codeforcroatia.org/2017/"
-background: "url(https://odd.codeforcroatia.org/2017/img/blue-overlay.png)"
+background: "#9B20DC"
+color: "#fff"
 published: true
 ---
 
@@ -22,7 +23,7 @@ Pridruži nam se u Srcu – 3. - 5. ožujka.
 
 # Vikend datathon
 
-Dani "civilnih haktivista" - naučite vizualizacije otvorenih podataka kroz radionice te pokažite što možete učiniti svojiom talentom za bolji grad. 
+Dani "civilnih haktivista" - naučite vizualizacije otvorenih podataka kroz radionice te pokažite što možete učiniti svojiom talentom za bolji grad.
 
 Za detalje posjetite stranicu:
 

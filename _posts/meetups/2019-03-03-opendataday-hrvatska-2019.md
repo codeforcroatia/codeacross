@@ -10,7 +10,8 @@ lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "HUB385, Petračićeva ul. 6, Zagreb"
 link: "http://odd.codeforcroatia.org/2019/"
-background: "url(https://odd.codeforcroatia.org/2019/img/blue-overlay.png)"
+background: "#9B20DC"
+color: "#fff"
 published: true
 ---
 
@@ -22,7 +23,7 @@ Pridruži nam se u HUB385 1. - 3. ožujka.
 
 # Vikend datathon
 
-Vikend za haktiviste – kreirajte open source projekte i otvorite podatke o rezultatima eSavjetovanja, isprobajte API Parlametra - aplikacije za praćenje rada Hrvatskog sabora, uključite se u istraživanje o financiranju hrvatskih udruga ili dostupnosti medicinske usluge prekida trudnoće u hrvatskim bolnicama. 
+Vikend za haktiviste – kreirajte open source projekte i otvorite podatke o rezultatima eSavjetovanja, isprobajte API Parlametra - aplikacije za praćenje rada Hrvatskog sabora, uključite se u istraživanje o financiranju hrvatskih udruga ili dostupnosti medicinske usluge prekida trudnoće u hrvatskim bolnicama.
 
 Za detalje posjetite stranicu:
 
