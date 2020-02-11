@@ -37,6 +37,10 @@ background: "url(http://i.imgur.com/U9bGouP.jpg)"
 
 Copy over everything except /_posts, and _config.yml.
 
+### Building CSS
+
+In the root run `sass --watch styles/style.scss:styles/style.css` to keep it active all the time to track all changes and build automatically, OR to build manually run `sass styles/style.scss styles/style.css`.
+
 ## Thanks
 
 Thanks to [HS Hackers](http://nyc.hshackers.org/) who created original version on which is this site based.
