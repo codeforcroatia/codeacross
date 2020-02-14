@@ -32,3 +32,5 @@ navigation: visible
     </li>
   {% endfor %}
 </ul>
+
+<p>{{ site.data.translations['forDebug'][page.lang] }} {{ site.time | date: '%s' }} {{ site.data.translations['unixTime'][page.lang] }}.</p>
