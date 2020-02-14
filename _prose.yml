@@ -4,7 +4,15 @@ prose:
   media: 'media'
   ignore:
     - index.html
-    - meetups.html
+    - en.html
+    - konferencija.html
+    - conference.html
+    - archive.html
+    - arhiva.html
+    - blog.html
+    - novosti.html
+    - statistika.html
+    - stats.html
     - _config.yml
     - /_layouts
     - /_includes
