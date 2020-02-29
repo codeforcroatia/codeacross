@@ -30,6 +30,6 @@ I konačno, iza nas su europski parlamentarni i predsjednički, a pred nama parl
 
 Dan otvorenih podataka nastavlja se nakon petka vikend hackathonom i radionicom za početnike koji žele volontirati kao moderatorice i podrška korisnicima na portalu ImamoPravoZnati.org. Više o ponuđenim setovima podataka, i detalje o konferenciji potražite u programu.
 
-Raspored: [Program_ODD2020.pdf](/Program_ODD2020.pdf)
+Raspored: [Program_ODD2020.pdf](http://odd.codeforcroatia.org/2020/Program_ODD2020.pdf)
 
 Izvor: [gong.hr](https://www.gong.hr/hr/dobra-vladavina/antikorupcijska-politika/nakon-dobrog-starta-hrvatska-zaostaje-u-otvaranju-/)
