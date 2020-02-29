@@ -3,7 +3,7 @@ categories: blog
 layout: blog
 title: Dobar start pa zaostajanje u otvaranju podataka
 subtitle: "Objavljujemo program Dana otvorenih podataka koji i ove godine okupljaju entuzijaste i entuzijastkinje otvorenih podataka na konferenciji i vikend hackathonu od 6. do 8. ožujka u zagrebačkom HUB385"
-identifier: "opendataday-2020-opendataday-najava-raspored"
+identifier: "opendataday-2020-opendataday-najava-program"
 lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
@@ -11,8 +11,6 @@ background: "url(https://odd.codeforcroatia.org/2019/img/event/53212877_22685649
 color: "#333"
 published: true
 ---
-
-**Objavljujemo program Dana otvorenih podataka koji i ove godine okupljaju entuzijaste i entuzijastkinje otvorenih podataka na konferenciji i vikend hackathonu od 6. do 8. ožujka u zagrebačkom HUB385**
 
 Ministarstvo financija trebalo je do rujna 2019. unaprijediti bazu podataka o izvršenim plaćanjima iz državnog proračuna. Na to su se obvezali u Akcijskom planu Partnerstva za otvorenu vlast – globalne inicijative Baracka Obame pokrenute prije gotovo devet godina u kojoj sudjeluje 78 država. Ministarstvo financija, međutim, nije uklonilo CAPTCHA kodove, niti je unaprijedilo mogućnosti pretraživanja, niti omogućilo otvoren pristup podacima kao što je to, primjerice, u međuvremenu  učinio Grad Bjelovar.
 
@@ -32,6 +30,6 @@ I konačno, iza nas su europski parlamentarni i predsjednički, a pred nama parl
 
 Dan otvorenih podataka nastavlja se nakon petka vikend hackathonom i radionicom za početnike koji žele volontirati kao moderatorice i podrška korisnicima na portalu ImamoPravoZnati.org. Više o ponuđenim setovima podataka, i detalje o konferenciji potražite u programu.
 
-Raspored: [Program_ODD2020.pdf](./Program_ODD2020.pdf)
+Raspored: [Program_ODD2020.pdf](../Program_ODD2020.pdf)
 
 Izvor: [gong.hr](https://www.gong.hr/hr/dobra-vladavina/antikorupcijska-politika/nakon-dobrog-starta-hrvatska-zaostaje-u-otvaranju-/)
