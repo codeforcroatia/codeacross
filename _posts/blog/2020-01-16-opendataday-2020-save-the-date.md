@@ -3,7 +3,7 @@ categories: blog
 layout: blog
 title: Dva mjeseca do novog izdanja Dana otvorenih podataka
 subtitle: "Rezervirajte petak i prvi vikend u ožujku za #ODD2020 - Dane otvorenih podataka 6.-8.3.2020. u Zagrebu"
-identifier: "opendataday-2019-konferencija-izvjestaj"
+identifier: "opendataday-2020-save-the-date"
 lang: hr
 author: Miroslav
 author-link: "https://codeforcroatia.org/people/schlos"
