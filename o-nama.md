@@ -45,7 +45,7 @@ Od raznih opcija koje se iznose u posljednjih nekoliko godina s ciljem poboljša
 
 ## Press
 
-{{ site.contact }}
+Možete nas dobiti putem <a href="https://mailhide.io/e/j2b3C" onclick="mailhidepopup=window.open('https://mailhide.io/e/j2b3C','mailhidepopup','width=580,height=635'); return false;">linka</a>.
 
 ## Kako ti možeš pomoći
 
