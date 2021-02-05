@@ -21,7 +21,7 @@ Open Data Day je vikend građanskih inovacija koji se od 6. do 8. ožujka 2020. 
 
 Pridruži nam se u HUB385 6. - 8. ožujka.
 
-# Vikend datathon
+# Vikend radionice i hackathon
 
 Radionice, subota 7. ožujka:
 10:00 – 12:00 Lucija Dumančić i Dražen Hoffmann (Gong) - pilotiranje modula digitalne pismenosti 
