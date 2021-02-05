@@ -2,10 +2,10 @@
 categories: meetup
 meetup: meetup
 layout: meetup
-title: Open Data Day Hrvatska 2020 datathon
+title: Open Data Day Hrvatska 2020 hackathon
 date: "2020-03-08 09:30:00"
 permalink: "/2020-datathon-ned/"
-identifier: "opendataday-hrvatska-2020-datathon-ned"
+identifier: "opendataday-hrvatska-2020-hackathon-ned"
 lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "HUB385, Petračićeva ul. 6, Zagreb"
@@ -21,7 +21,7 @@ Open Data Day je vikend građanskih inovacija koji se od 6. do 8. ožujka 2020. 
 
 Pridruži nam se u HUB385 6. - 8. ožujka.
 
-# Vikend datathon
+# Vikend hackathon
 
 Hackathon, nedjelja 8. ožujka:
 10:00 – 17:00 hackathon
