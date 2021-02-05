@@ -2,10 +2,10 @@
 categories: meetup
 meetup: meetup
 layout: meetup
-title: Open Data Day Hrvatska 2019 datathon
+title: Open Data Day Hrvatska 2020 radionice i hackathon
 date: "2020-03-07 09:30:00"
 permalink: "/2020-datathon-sub/"
-identifier: "opendataday-hrvatska-2020-datathon-sub"
+identifier: "opendataday-hrvatska-2020-radionice-sub"
 lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "HUB385, Petračićeva ul. 6, Zagreb"
