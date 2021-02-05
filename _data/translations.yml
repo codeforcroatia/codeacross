@@ -18,8 +18,8 @@ location:
   en: "Zagreb, Croatia"
   hr: "Zagreb, Hrvatska"
 nextMeetupInfo:
-  en: "Open Data Day 2020 is on 6th&nbsp;/&nbsp;7th&nbsp;/&nbsp;8th March 2020"
-  hr: "Dani otvorenih podataka 2020 će se održati 6.&nbsp;/&nbsp;7.&nbsp;/&nbsp;8. ožujka 2020."
+  en: "Open Data Day 2021 is on 5th&nbsp;/&nbsp;6th&nbsp;/&nbsp;7th March 2020"
+  hr: "Dani otvorenih podataka 2021 će se održati 5.&nbsp;/&nbsp;6.&nbsp;/&nbsp;7. ožujka 2021."
 description:
   en: "Open Data Day is a open data conference and weekend dedicated to civic hacking."
   hr: "Dan otvorenih podataka je konferencija o otvorenim podacima i vikend građanskih inovacija."
@@ -94,7 +94,7 @@ selectRedPill:
   hr: "izabrei crvenu pilulu"
 organizers:
   en: "Code for Croatia and GONG"
-  hr: "Programiraj za Hrvatsku i GONG"
+  hr: "Code for Croatia i GONG"
 maintainers:
   en: "Code for Croatia"
-  hr: "Programiraj za Hrvatsku"
+  hr: "Code for Croatia"
