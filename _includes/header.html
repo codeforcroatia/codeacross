@@ -41,7 +41,7 @@
 
           {% assign contents = site.pages | where:"identifier", page.identifier | sort: 'lang' %}
           {% for content in contents %}
-            {% if content.lang != page.lang and page.identifier != nil %}
+            {% if page.navigation contains 'visible' and content.lang != page.lang and page.identifier != nil %}
               <li>
                 <a title="{{ site.data.translations['viewIn'][content.lang] }} {{ site.data.languages[content.lang].label }}" class="page-link {{content.lang}}" href="{{ content.url | prepend: site.baseurl }}">
                   {{ site.data.languages[content.lang].label }}
