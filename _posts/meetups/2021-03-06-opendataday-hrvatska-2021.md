@@ -4,8 +4,8 @@ meetup: meetup
 layout: meetup
 title: Open Data Day Hrvatska 2021 hackathon
 date: "2021-03-06 09:30:00"
-permalink: "/2020-datathon-sub/"
-identifier: "opendataday-hrvatska-2021-hackathon"
+permalink: "/2021-hackathon-sub/"
+identifier: "opendataday-hrvatska-2021-hackathon-sub"
 lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "Online"
