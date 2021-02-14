@@ -1,6 +1,6 @@
 /* Need to override something? Write your CSS here, and use !important only if neccessary.  */
 
-.video-container {
+.embed-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
@@ -8,9 +8,9 @@
     overflow: hidden;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
     position: absolute;
     top: 0;
     left: 0;
