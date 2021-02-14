@@ -1,5 +1,7 @@
 /* Need to override something? Write your CSS here, and use !important only if neccessary.  */
 
+/* Embed responsive Youtube videos - https://avexdesigns.com/blog/responsive-youtube-embed */
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
