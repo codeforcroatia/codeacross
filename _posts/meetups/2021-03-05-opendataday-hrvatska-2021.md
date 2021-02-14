@@ -15,8 +15,9 @@ color: "#fff"
 published: true
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0xknu6-elklI6HYPrF-TDX4TiPTen8TN" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- Embed responsive Youtube videos - https://avexdesigns.com/blog/responsive-youtube-embed  -->
 
+<!-- Playlist: -->
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL0xknu6-elklI6HYPrF-TDX4TiPTen8TN" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 Otvoreni podaci zahtijevaju otvorenu vlast. Oni nisu samo vrijedan ekonomski, nego i društveni resurs.
