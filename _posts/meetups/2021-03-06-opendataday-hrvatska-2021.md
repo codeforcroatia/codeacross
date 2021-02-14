@@ -9,7 +9,7 @@ identifier: "opendataday-hrvatska-2021-hackathon"
 lang: hr
 host: "Code for Croatia <i class='icon-ampersand'></i> GONG"
 address: "Online"
-link: "http://odd.codeforcroatia.org/2020/"
+link: "https://forms.gle/E5f2U5aDkFVmqhQHA"
 background: "#9B20DC"
 color: "#fff"
 published: true
