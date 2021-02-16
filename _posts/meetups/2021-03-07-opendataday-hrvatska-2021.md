@@ -24,4 +24,6 @@ Open Data Day je vikend građanskih inovacija koji se 7. ožujka 2020. događa i
 
 Pridruži nam se online!
 
+Prati [event na Facebooku](https://www.facebook.com/events/1062413730935676?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D]%7D).
+
 # Raspored
