@@ -30,4 +30,4 @@ Prati [event na Facebooku](https://www.facebook.com/events/1062413730935676?acon
 
 ...
 
-Nastavak na raspored za sljedeći dan: [nedjelja, 7. ožujka 2021 >>>](/2021-hackathon-ned/)
+Nastavak na raspored za sljedeći dan: [nedjelja, 7. ožujka 2021 >>](/2021-hackathon-ned/)
