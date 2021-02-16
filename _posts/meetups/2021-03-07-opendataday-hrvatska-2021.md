@@ -30,4 +30,4 @@ Prati [event na Facebooku](https://www.facebook.com/events/1062413730935676?acon
 
 ...
 
-Pogledaj raspored za prethodni dan: [subota, 6. ožujka 2021 >>>](/2021-hackathon-sub/)
+Pogledaj raspored za prethodni dan: [subota, 6. ožujka 2021 >>](/2021-hackathon-sub/)
