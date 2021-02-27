@@ -12,6 +12,7 @@ address: "Online prijenos iz Novinarskog doma u Zagrebu"
 link: "https://forms.gle/E5f2U5aDkFVmqhQHA"
 background: "#0086FF"
 color: "#fff"
+footer: visible-hr
 published: true
 ---
 
@@ -59,3 +60,5 @@ Otvoreni podaci javnog sektora vrijedan su resurs i za znanstvena istraživanja 
 * Bia Mandžuka (TODO), Fakultet prometnih znanosti Zagreb - personalizirani multimodalni planeri putovanja
 * Neven Vrček (TODO), Fakultet organizacije i informatike Varaždin - otvoreni podaci i umjetna inteligencija
 * Moderatorica: Anamarija Musa, Pravni fakultet Zagreb
+
+{% include footer-event.html %}
