@@ -24,6 +24,7 @@ published: true
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/pbVUTXA-BRM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 -->
 
+
 Vikend civilnih inovacija dvodnevno je druženje na Danima otvorenih podataka kojem je cilj otključavati zaključane podatke od javnog interesa. Ljudi različitih profila i znanja kroz timski rad pridonese pozitivnim društvenim promjenama.
 
 Novinar_ka si i želiš otključati podatke iz PDF-a, ili aktivist_ica s idejom za aplikaciju koja bi ubrzala rješavanje nekog zajedničkog problema, ili programer_ka, web developer_ka, dizajner_ica, analitičar_ka, istraživač_ica, samo znatiželjan_a - uključi se online prvog vikenda ožujka i pridruži nekom od predloženih projekata. Ili dođi s vlastitim i nađi istomišljenike koji će na njemu raditi s tobom.
