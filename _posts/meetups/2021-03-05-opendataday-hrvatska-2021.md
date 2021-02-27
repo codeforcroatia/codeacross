@@ -8,7 +8,7 @@ permalink: "/2021-konferencija/"
 identifier: "opendataday-hrvatska-2021-konferencija"
 lang: hr
 host: "GONG <i class='icon-ampersand'></i> Code for Croatia"
-address: "Online prijenos iz HND"
+address: "Online prijenos iz Novinarskog doma u Zagrebu"
 link: "https://forms.gle/E5f2U5aDkFVmqhQHA"
 background: "#0086FF"
 color: "#fff"
