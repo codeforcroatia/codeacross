@@ -35,9 +35,11 @@ Novinarski korner namijenjen je zainteresiranima za alate s kojima radimo na otk
 # Raspored
 
 **10:00 - 16:00** Radne grupe: Hackathon projekti
+
 **16:30 - 18:00** Predstavljanje projekata
 
 _Dodatni sadržaji:_
+
 **13:00 - 14:00** Novinarski korner
 
 Pogledaj raspored za prethodni dan: [subota, 6. ožujka 2021 >>](/2021-hackathon-sub/)

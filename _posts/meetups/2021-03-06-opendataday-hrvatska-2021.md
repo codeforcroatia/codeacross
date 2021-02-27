@@ -35,10 +35,13 @@ Novinarski korner namijenjen je zainteresiranima za alate s kojima radimo na otk
 # Raspored
 
 **10:00 - 10:45** Uvod: Predstavljanje projekata
+
 **11:00 - 18:00** Radne grupe: Hackathon projekti
 
 _Dodatni sadržaji:_
+
 **11:00 - 12:00** AMA: Pitaj što te zanima o Code for Croatia skupini civilnih hakera i haktivista
+
 **13:00 - 14:00** Novinarski korner
 
 Nastavak na raspored za sljedeći dan: [nedjelja, 7. ožujka 2021 >>](/2021-hackathon-ned/)

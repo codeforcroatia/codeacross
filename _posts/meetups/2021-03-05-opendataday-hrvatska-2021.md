@@ -39,6 +39,7 @@ Otvoreni podaci javnog sektora vrijedan su resurs i za znanstvena istraživanja 
 * Lana Podgoršek, voditeljica Code for Croatia
 
 **10:00-10:45 Panel: Pitaj što želiš znati o izmjenama Zakona o pravu na pristup informacijama**
+
 *Hoće li će izmjenama Zakona, koji nazivaju i ključnim za suzbijanje korupcije, biti srezan broj tijela obveznika Zakona i ograničen opseg podataka koje možemo tražiti od javnih poduzeća, institucija i ustanova*
 * Jagoda Botički, članica radne skupine za izradu nacrta prijedloga Zakona ispred Ureda povjerenika za informiranje
 * Anamarija Musa, članica radne skupine za izradu nacrta prijedloga Zakona ispred akademske zajednice
@@ -47,6 +48,7 @@ Otvoreni podaci javnog sektora vrijedan su resurs i za znanstvena istraživanja 
 * Moderatorica: Đurđica Klancir, novinarka net.hr
 
 **11:00-11:45 Panel: Kako otvoreni podaci mogu pomoći zajednici**
+
 *Znanstvenici i znanstvenice uključeni u Horizon2020 projekt Twinning Open Data Operational (TODO) i izvaninstitucionalni korisnici otvorenih podataka govore o svojim iskustvima; kako podaci pomažu učinkovitijem upravljanju krizom, većoj djelotvornosti javnog sektora ali i planiranju putovanja, te otkrivaju budućnosti otvorenih podataka u razvoju umjetne inteligencije.*
 * Ana Kuveždić Divjak (TODO), Geodetski fakultet Zagreb - Potres2020 i Oton
 * Martin Požar, Dataspekt.com - analize istraživačkih i statističkih podataka o pandemiji
