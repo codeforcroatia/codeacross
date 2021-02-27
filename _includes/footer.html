@@ -1,4 +1,6 @@
-{% include footer-event.html %}
+{% if site.layout == 'meetup' %}
+  {% include footer-event.html %}
+{% endif %}
 
 {% if site.notifications contains 'visible' %}
 <section id="notifications" class="fullbox fullbox-blue rss-subscribe">
