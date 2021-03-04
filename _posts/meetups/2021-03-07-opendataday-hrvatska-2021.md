@@ -18,12 +18,12 @@ published: true
 
 <!-- Embed responsive Youtube videos - https://avexdesigns.com/blog/responsive-youtube-embed  -->
 
-<!-- Playlist: -->
+<!-- Playlist:
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL0xknu6-elklI6HYPrF-TDX4TiPTen8TN" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-
-<!-- Video:
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/pbVUTXA-BRM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 -->
+
+<!-- Video: -->
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/Cuj8ZE3VnIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 
 Vikend civilnih inovacija dvodnevno je druženje na Danima otvorenih podataka kojem je cilj otključavati zaključane podatke od javnog interesa. Ljudi različitih profila i znanja kroz timski rad pridonese pozitivnim društvenim promjenama.
@@ -38,9 +38,11 @@ Novinarski korner namijenjen je zainteresiranima za alate s kojima radimo na otk
 
 **10:00 - 16:00** Radne grupe: Hackathon projekti
 
-**16:30 - 18:00** Predstavljanje projekata
+**16:30 - 18:00** Završno predstavljanje projekata <a href="https://youtu.be/Cuj8ZE3VnIs" target="_blank"><img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png"> gledaj online</a>
 
 _Dodatni sadržaji:_
+
+**11:00 - 12:00** AMA: Pitaj što te zanima o Imamo pravo znati <a href="https://youtu.be/BaKW-zGV3ew" target="_blank"><img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png"> gledaj online</a>
 
 **13:00 - 14:00** Novinarski korner
 

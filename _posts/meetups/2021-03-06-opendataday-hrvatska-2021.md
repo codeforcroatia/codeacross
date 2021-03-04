@@ -36,13 +36,13 @@ Novinarski korner namijenjen je zainteresiranima za alate s kojima radimo na otk
 
 # Raspored
 
-**10:00 - 10:45** Uvod: Predstavljanje projekata <img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png">
+**10:00 - 10:45** Uvod: Predstavljanje projekata <a href="https://youtu.be/5E9bR1nbzD4" target="_blank"><img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png"> gledaj online</a>
 
-**11:00 - 18:00** Radne grupe: Hackathon projekti \13i | &#x13i | &#x13-i
+**11:00 - 18:00** Radne grupe: Hackathon projekti
 
 _Dodatni sadržaji:_
 
-**11:00 - 12:00** AMA: Pitaj što te zanima o Code for Croatia skupini civilnih hakera i haktivista
+**11:00 - 12:00** AMA: Pitaj što te zanima o Code for Croatia skupini civilnih hakera i haktivista <a href="https://youtu.be/rBkg4KDTB3o" target="_blank"><img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png"> gledaj online</a>
 
 **13:00 - 14:00** Novinarski korner
 
