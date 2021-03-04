@@ -36,9 +36,9 @@ Novinarski korner namijenjen je zainteresiranima za alate s kojima radimo na otk
 
 # Raspored
 
-**10:00 - 10:45** Uvod: Predstavljanje projekata
+**10:00 - 10:45** Uvod: Predstavljanje projekata <img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png">
 
-**11:00 - 18:00** Radne grupe: Hackathon projekti
+**11:00 - 18:00** Radne grupe: Hackathon projekti \13i | &#x13i | &#x13-i
 
 _Dodatni sadržaji:_
 
