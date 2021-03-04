@@ -59,9 +59,6 @@ Istraži podatke o radu saborskih zastupnica i zastupnika koje skuplja Parlameta
 ## ESF natječaji
 Koliko je natječaja za sredstva iz Europskog socijalnog fonda odgođeno i nikada raspisano, i koliko smo novca na taj način izgubili, istražite čisteći i pripremajući podatake u excelu. Traže se vizualni_e majstori_ce koji bi ih analizirali i atraktivno grafički prikazali.
 
-## TODO Otvoreni podaci Pravnog fakulteta
-Traže se data entuzijasti_ce koji bi radili s podacima na teme kriminala, izbora, komparativna analiza portala sudske prakse, otvoreni proračun.
-
 ## TODO DOGWEB ZG
 Priključi se ekipi koja razvija DOGWEB ZG – aplikaciju za sve pseće sadržaje u Zagrebu (od parkova i kanti za smeće pa do trgovina i veterinara). Traže se volonteri_ke za izradu i dizajn mobilne/web aplikacije DOGWEB ZG na temelju otvorenih podataka o psećim sadržajima u gradu Zagrebu.
 
@@ -69,7 +66,7 @@ Priključi se ekipi koja razvija DOGWEB ZG – aplikaciju za sve pseće sadržaj
 Traže se volonteri_ke za čišćenje i pripremu podatka u excelu.
 
 ## Vizualizacija baze spomenika iz znanstvenog rada Sanje Horvatinčić
-Traže se volonteri_ke koji bi mapirali i/ili vizualizirali podatke postavljene na Arches platformi za obradu i prikupljanje podataka o kulturnoj baštini. Više na [linku](https://www.bib.irb.hr/1052189).
+Baza podataka 1.737 spomenika iz razdoblja socijalizma u Hrvatskoj. Traže se volonteri_ke koji bi mapirali i/ili vizualizirali podatke postavljene na Arches platformi za obradu i prikupljanje podataka o kulturnoj baštini. Više na [linku](https://www.bib.irb.hr/1052189).
 
 
 *Prati [event i na Facebooku](https://www.facebook.com/events/1062413730935676?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D]%7D).*
