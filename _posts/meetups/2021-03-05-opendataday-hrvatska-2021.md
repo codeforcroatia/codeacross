@@ -18,12 +18,13 @@ published: true
 
 <!-- Embed responsive Youtube videos - https://avexdesigns.com/blog/responsive-youtube-embed  -->
 
-<!-- Playlist: -->
+<!-- Playlist:
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL0xknu6-elklI6HYPrF-TDX4TiPTen8TN" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-
-<!-- Video:
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/pbVUTXA-BRM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 -->
+
+<!-- Video: -->
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/9_SVYaY4cAc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 
 Otvoreni podaci zahtijevaju otvorenu vlast. Oni nisu samo vrijedan ekonomski, nego i društveni resurs.
 Pokazalo se to najbolje u izvanrednim okolnostima koje su obilježile prošlu godinu. Najveći broj aplikacija nastalih kao reakcije na krizu, od Andrije za praćenje epidemije, do Potres2020, razvijen je zahvaljujući ustupanju podataka koje skupljaju institucije i ustanove. Međutim, pristup istim tim podacima javnosti je otežan ili potpuno onemogućen.
