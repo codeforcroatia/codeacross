@@ -18,12 +18,12 @@ published: true
 
 <!-- Embed responsive Youtube videos - https://avexdesigns.com/blog/responsive-youtube-embed  -->
 
-<!-- Playlist:
+<!-- Playlist: -->
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PL0xknu6-elklI6HYPrF-TDX4TiPTen8TN" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
--->
 
-<!-- Video: -->
+<!-- Video:
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/Cuj8ZE3VnIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+-->
 
 
 Vikend civilnih inovacija dvodnevno je druženje na Danima otvorenih podataka kojem je cilj otključavati zaključane podatke od javnog interesa. Ljudi različitih profila i znanja kroz timski rad pridonese pozitivnim društvenim promjenama.
