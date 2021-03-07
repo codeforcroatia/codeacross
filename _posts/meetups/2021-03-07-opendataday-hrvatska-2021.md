@@ -42,7 +42,7 @@ Novinarski korner namijenjen je zainteresiranima za alate s kojima radimo na otk
 
 _Dodatni sadržaji:_
 
-**11:00 - 12:00** AMA: Pitaj što te zanima o Imamo pravo znati <a href="https://youtu.be/BaKW-zGV3ew" target="_blank"><img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png"> gledaj online</a>
+**11:00 - 12:00** AMA: Pitaj što te zanima o Imamo pravo znati <a href="https://youtu.be/oK98t5dEBuU" target="_blank"><img src="https://glyphicons.com/img/glyphicons/halflings/2x/glyphicons-halflings-189-video-play-empty@2x.png"> gledaj online</a>
 
 **13:00 - 14:00** Novinarski korner
 
